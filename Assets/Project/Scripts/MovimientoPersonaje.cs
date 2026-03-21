@@ -9,8 +9,23 @@ public class MovimientoPersonaje : MonoBehaviour
     float movimientoY;
     bool aCorrer = false;
 
+    PlayerTeleport estado; 
+
+    void Start()
+    {
+        estado = GetComponent<PlayerTeleport>();
+    }
+
     void Update()
     {
+        if (estado != null)
+        {
+            if (estado.puedeTeletransportarse == false)
+            {
+                return;
+            }
+        }
+
         if (Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0)
         {
             if (aCorrer) { velocidad = 12f; } else { velocidad = 7f; }
@@ -24,6 +39,7 @@ public class MovimientoPersonaje : MonoBehaviour
 
         movimientoX = Input.GetAxisRaw("Horizontal");
         movimientoY = Input.GetAxisRaw("Vertical");
+
         GetComponent<Transform>().Translate(new Vector3(movimientoX * velocidad, movimientoY * velocidad, 0) * Time.deltaTime);
     }
 }
