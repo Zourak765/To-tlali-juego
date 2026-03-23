@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7cc03d3e3a252a040b2a7fc9037a5c93
+guid: dd40465c3e0031b449d5e0fb2e6fdd84
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8567885536192132273
-    second: "\xC1RBOL 1_0"
+      213: 8054116825057269651
+    second: "\xC1RBOL 1-C_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,23 +126,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "\xC1RBOL 1_0"
+      name: "\xC1RBOL 1-C_0"
       rect:
         serializedVersion: 2
-        x: 0
+        x: 59
         y: 0
-        width: 436
-        height: 538
+        width: 438
+        height: 537
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b470f4208e37e670800000000000000
-      internalID: 8567885536192132273
+      spriteID: 39719017498f5cf60800000000000000
+      internalID: 8054116825057269651
       vertices: []
       indices: 
       edges: []
@@ -152,7 +152,7 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "\xC1RBOL 1_0": 8567885536192132273
+      "\xC1RBOL 1-C_0": 8054116825057269651
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
