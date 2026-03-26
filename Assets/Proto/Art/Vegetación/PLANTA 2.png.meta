@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 69cb7956addd91648a8657be61575a05
+guid: 484c6a91d663a3b41bfcb2aad26efcc4
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -129,10 +129,10 @@ TextureImporter:
       name: PLANTA 2_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 55
         y: 0
-        width: 221
-        height: 187
+        width: 223
+        height: 189
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
