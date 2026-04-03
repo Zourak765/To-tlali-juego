@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ZonaNota
   - Nota
+  - Instrumento
   layers:
   - Default
   - TransparentFX
