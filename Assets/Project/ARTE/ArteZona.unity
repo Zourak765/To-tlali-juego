@@ -777,9 +777,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5553744362796954502, guid: 31f44696721d78a4ba92910f318c61f5, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5576308232280897196, guid: 31f44696721d78a4ba92910f318c61f5, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6471641053693936488, guid: 31f44696721d78a4ba92910f318c61f5, type: 3}
       propertyPath: m_Name
       value: Graphic_Erik
+      objectReference: {fileID: 0}
+    - target: {fileID: 7361471717600292818, guid: 31f44696721d78a4ba92910f318c61f5, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7505537357174437887, guid: 31f44696721d78a4ba92910f318c61f5, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8140349795359498856, guid: 31f44696721d78a4ba92910f318c61f5, type: 3}
       propertyPath: m_LocalPosition.x
