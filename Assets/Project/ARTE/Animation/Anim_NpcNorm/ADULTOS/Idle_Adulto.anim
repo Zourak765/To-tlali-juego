@@ -28,7 +28,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 0.25
-        value: {x: 0, y: 0, z: -11.009}
+        value: {x: 0, y: 0, z: -3.839}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -37,7 +37,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 0.75
-        value: {x: 0, y: 0, z: 8.981}
+        value: {x: 0, y: 0, z: 3.88}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -339,7 +339,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.25
-        value: -11.009
+        value: -3.839
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -348,7 +348,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.75
-        value: 8.981
+        value: 3.88
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -731,8 +731,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: root/Center/Torso/Head
+    attribute: m_LocalEulerAngles.z
+    path: root/Center/Torso/Hand.l
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -744,7 +744,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: root/Center/Torso/Head
+    path: root/Center/Torso/Hand.l
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -755,8 +755,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: root/Center/Torso/Head
+    attribute: m_LocalEulerAngles.x
+    path: root/Center/Torso/Hand.l
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -804,7 +804,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: root/Center/Torso/Hand.l
+    path: root/Center/Torso/Head
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -816,7 +816,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: root/Center/Torso/Hand.l
+    path: root/Center/Torso/Head
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -828,7 +828,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: root/Center/Torso/Hand.l
+    path: root/Center/Torso/Head
     classID: 4
     script: {fileID: 0}
     flags: 0
