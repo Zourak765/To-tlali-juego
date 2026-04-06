@@ -9,6 +9,7 @@ public class EstatuaInteraccion : MonoBehaviour
     public Transform puntoDestino;
     public GameObject jugador;
     public MonoBehaviour movimientoJugador;
+    public AudioClip musicaEstatua;
 
     public SpriteRenderer estatuaRenderer;
     public Sprite estatuaActivada;
@@ -45,7 +46,7 @@ public class EstatuaInteraccion : MonoBehaviour
 
         yield return new WaitForSeconds(2f);
 
-        MiniJuegoManager.instancia.IniciarMinijuego();
+        MiniJuegoManager.instancia.IniciarMinijuego(musicaEstatua);
 
         yield return new WaitUntil(() =>
             MiniJuegoManager.instancia != null &&

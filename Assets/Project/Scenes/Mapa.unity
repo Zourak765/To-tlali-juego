@@ -12834,6 +12834,7 @@ MonoBehaviour:
   puntoDestino: {fileID: 1824394579}
   jugador: {fileID: 686969794}
   movimientoJugador: {fileID: 686969795}
+  musicaEstatua: {fileID: 0}
   estatuaRenderer: {fileID: 437417549}
   estatuaActivada: {fileID: 21300000, guid: 1a17afc7a5e2cbb429abc4e12b7de6d3, type: 3}
   textoPerdiste: {fileID: 1398605672}
@@ -28141,6 +28142,7 @@ MonoBehaviour:
   puntoDestino: {fileID: 197935582}
   jugador: {fileID: 686969794}
   movimientoJugador: {fileID: 686969795}
+  musicaEstatua: {fileID: 0}
   estatuaRenderer: {fileID: 967489681}
   estatuaActivada: {fileID: 21300000, guid: c5b9df3833f2e3d4380e23d4a9830683, type: 3}
   textoPerdiste: {fileID: 1855975035}
@@ -54624,6 +54626,7 @@ MonoBehaviour:
   puntoDestino: {fileID: 1873511466}
   jugador: {fileID: 686969794}
   movimientoJugador: {fileID: 686969795}
+  musicaEstatua: {fileID: 0}
   estatuaRenderer: {fileID: 1926453905}
   estatuaActivada: {fileID: 21300000, guid: d4ec951a49ae5c74ba979731ecf2b589, type: 3}
   textoPerdiste: {fileID: 1855975035}
@@ -58009,6 +58012,7 @@ MonoBehaviour:
   puntoDestino: {fileID: 891684320}
   jugador: {fileID: 686969794}
   movimientoJugador: {fileID: 686969795}
+  musicaEstatua: {fileID: 8300000, guid: 0582d046b3dc92a49b97b3cdf9e9b223, type: 3}
   estatuaRenderer: {fileID: 2046960486}
   estatuaActivada: {fileID: 21300000, guid: 5578ebee3f134f149963b8887247ffbf, type: 3}
   textoPerdiste: {fileID: 1855975035}

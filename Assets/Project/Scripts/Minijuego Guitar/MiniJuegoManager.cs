@@ -23,7 +23,7 @@ public class MiniJuegoManager : MonoBehaviour
         instancia = this;
     }
 
-        void Update()
+    void Update()
     {
         barra.value = progreso;
 
@@ -33,9 +33,7 @@ public class MiniJuegoManager : MonoBehaviour
         }
     }
 
-  
-
-    public void IniciarMinijuego()
+    public void IniciarMinijuego(AudioClip nuevaMusica)
     {
         canvasMinijuego.SetActive(true);
 
@@ -48,6 +46,11 @@ public class MiniJuegoManager : MonoBehaviour
         musica.Stop();
         musicaInicio = false;
 
+        if (nuevaMusica != null)
+        {
+            musica.clip = nuevaMusica;
+        }
+
         Invoke("IniciarMusica", 2f);
     }
 
@@ -59,20 +62,14 @@ public class MiniJuegoManager : MonoBehaviour
 
     public void NotaCorrecta()
     {
-        print("hola");
         progreso += 10f;
         progreso = Mathf.Clamp(progreso, 0, maxProgreso);
-
-        //Debug.Log("SUMANDO" + progreso);
     }
 
     public void NotaIncorrecta()
     {
-        print("pendejo");
         progreso -= 15f;
         progreso = Mathf.Clamp(progreso, 0, maxProgreso);
-
-       // Debug.Log("RESTANDO" + progreso);
     }
 
     void TerminarJuego()
