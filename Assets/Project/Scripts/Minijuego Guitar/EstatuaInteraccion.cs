@@ -3,13 +3,11 @@ using System.Collections;
 
 public class EstatuaInteraccion : MonoBehaviour
 {
-    public string objetoRequerido = "Instrumento";
+    public string objetoRequerido = "Instrumento1"; 
+
     public GameObject mensajeError;
-
     public Transform puntoDestino;
-
     public GameObject jugador;
-
     public MonoBehaviour movimientoJugador;
 
     public SpriteRenderer estatuaRenderer;
@@ -28,7 +26,7 @@ public class EstatuaInteraccion : MonoBehaviour
     {
         if (enZona && Input.GetKeyDown(KeyCode.E))
         {
-            if (InventMenu.instancia.TieneObjeto(objetoRequerido))
+            if (InventMenu.instancia.TieneObjetoUnico(objetoRequerido))
             {
                 StartCoroutine(SecuenciaCompleta());
             }

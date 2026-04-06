@@ -1,11 +1,12 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class InventMenu : MonoBehaviour
 {
     public static InventMenu instancia;
 
-    public List<string> objetos = new List<string>();
+    public List<string> objetosUnicos = new List<string>();
+    public Dictionary<string, int> objetosCantidad = new Dictionary<string, int>();
 
     public delegate void CambioInventario();
     public event CambioInventario alCambiarInventario;
@@ -22,21 +23,31 @@ public class InventMenu : MonoBehaviour
         }
     }
 
-    public void AgregarObjeto(string tagObjeto)
+    public void AgregarObjeto(string tagObjeto, bool esAcumulable)
     {
-        if (!objetos.Contains(tagObjeto))
+        if (esAcumulable)
         {
-            objetos.Add(tagObjeto);
-
-            if (alCambiarInventario != null)
-            {
-                alCambiarInventario.Invoke();
-            }
+            if (objetosCantidad.ContainsKey(tagObjeto))
+                objetosCantidad[tagObjeto]++;
+            else
+                objetosCantidad[tagObjeto] = 1;
         }
+        else
+        {
+            if (!objetosUnicos.Contains(tagObjeto))
+                objetosUnicos.Add(tagObjeto);
+        }
+
+        alCambiarInventario?.Invoke();
     }
 
-    public bool TieneObjeto(string tagObjeto)
+    public bool TieneObjetoUnico(string tagObjeto)
     {
-        return objetos.Contains(tagObjeto);
+        return objetosUnicos.Contains(tagObjeto);
+    }
+
+    public int CantidadObjeto(string tagObjeto)
+    {
+        return objetosCantidad.ContainsKey(tagObjeto) ? objetosCantidad[tagObjeto] : 0;
     }
 }

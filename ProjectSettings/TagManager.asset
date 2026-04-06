@@ -9,6 +9,7 @@ TagManager:
   - Instrumento
   - Naranja
   - Azul
+  - Semilla
   layers:
   - Default
   - TransparentFX

@@ -9,16 +9,25 @@ public class UIInventario : MonoBehaviour
 
     void Start()
     {
-        panelInventario.SetActive(false); 
+        panelInventario.SetActive(false);
     }
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.I))
         {
-            abierto = !abierto;
+            ToggleInventario();
+        }
+    }
 
-            panelInventario.SetActive(abierto);
+    public void ToggleInventario()
+    {
+        abierto = !abierto;
+
+        panelInventario.SetActive(abierto);
+
+        if (movimientoJugador != null)
+        {
             movimientoJugador.enabled = !abierto;
         }
     }
