@@ -1,0 +1,603 @@
+fileFormatVersion: 2
+guid: 80af96085f29bb240aa08bfb97b8a0f2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5535312666847453823
+    second: IMG_3362_0
+  - first:
+      213: 399150387454721939
+    second: IMG_3362_1
+  - first:
+      213: -943110761276794696
+    second: IMG_3362_2
+  - first:
+      213: 9009184906366456993
+    second: IMG_3362_3
+  - first:
+      213: -2530817092020169934
+    second: IMG_3362_4
+  - first:
+      213: -7528974512969389241
+    second: IMG_3362_5
+  - first:
+      213: -4512611625490304804
+    second: IMG_3362_6
+  - first:
+      213: -6879451759337244919
+    second: IMG_3362_7
+  - first:
+      213: -1310663389284497310
+    second: IMG_3362_8
+  - first:
+      213: -1801685750311324225
+    second: IMG_3362_9
+  - first:
+      213: 2672636813758072236
+    second: IMG_3362_10
+  - first:
+      213: -1686727170835413837
+    second: IMG_3362_11
+  - first:
+      213: -6629650528659471926
+    second: IMG_3362_12
+  - first:
+      213: -2244261886603060133
+    second: IMG_3362_13
+  - first:
+      213: -1191660561653738997
+    second: IMG_3362_14
+  - first:
+      213: -5020430657167927966
+    second: IMG_3362_15
+  - first:
+      213: -3559140188696684909
+    second: IMG_3362_16
+  - first:
+      213: -2058237249630343745
+    second: IMG_3362_17
+  - first:
+      213: -2153232958111766177
+    second: IMG_3362_18
+  - first:
+      213: -5168728679239845484
+    second: IMG_3362_19
+  - first:
+      213: 1819590346307244696
+    second: IMG_3362_20
+  - first:
+      213: 7160659636859715307
+    second: IMG_3362_21
+  - first:
+      213: -7936005413078487323
+    second: IMG_3362_22
+  - first:
+      213: -6324429638628309324
+    second: IMG_3362_23
+  - first:
+      213: 7325746764257322207
+    second: IMG_3362_24
+  - first:
+      213: -5448535325609459246
+    second: IMG_3362_25
+  - first:
+      213: 224452350021711617
+    second: IMG_3362_26
+  - first:
+      213: 7908242507595293273
+    second: IMG_3362_27
+  - first:
+      213: 7380998457646523305
+    second: IMG_3362_28
+  - first:
+      213: -2018449893633152834
+    second: IMG_3362_29
+  - first:
+      213: -4749207844678254431
+    second: IMG_3362_30
+  - first:
+      213: -6327470455666037482
+    second: IMG_3362_31
+  - first:
+      213: -4579689550855198078
+    second: IMG_3362_32
+  - first:
+      213: -1991429429676134567
+    second: IMG_3362_33
+  - first:
+      213: 7319331563132736465
+    second: IMG_3362_34
+  - first:
+      213: 5614371995835870993
+    second: IMG_3362_35
+  - first:
+      213: -5108255443824942973
+    second: IMG_3362_36
+  - first:
+      213: -916292303766144577
+    second: IMG_3362_37
+  - first:
+      213: 1971871975109811433
+    second: IMG_3362_38
+  - first:
+      213: -3730082311145661360
+    second: IMG_3362_39
+  - first:
+      213: -2319650936533272432
+    second: IMG_3362_40
+  - first:
+      213: 7495077569576687164
+    second: IMG_3362_41
+  - first:
+      213: 731131198396148111
+    second: IMG_3362_42
+  - first:
+      213: -6847019966958108317
+    second: IMG_3362_43
+  - first:
+      213: -4239870250067876153
+    second: IMG_3362_44
+  - first:
+      213: 3379440109004108559
+    second: IMG_3362_45
+  - first:
+      213: 6700923847145100949
+    second: IMG_3362_46
+  - first:
+      213: 1466487313167297476
+    second: IMG_3362_47
+  - first:
+      213: 4247271543561551215
+    second: IMG_3362_48
+  - first:
+      213: -5369876278756693577
+    second: IMG_3362_49
+  - first:
+      213: 601563649587435584
+    second: IMG_3362_50
+  - first:
+      213: 4128989662455218442
+    second: IMG_3362_51
+  - first:
+      213: -8446228901833471769
+    second: IMG_3362_52
+  - first:
+      213: 7683454567919966519
+    second: IMG_3362_53
+  - first:
+      213: -7514160365827572650
+    second: IMG_3362_54
+  - first:
+      213: 7205259205883883454
+    second: IMG_3362_55
+  - first:
+      213: -3634983229095187823
+    second: IMG_3362_56
+  - first:
+      213: -5216650275176326605
+    second: IMG_3362_57
+  - first:
+      213: 2625452404570486122
+    second: IMG_3362_58
+  - first:
+      213: 1007705618430780124
+    second: IMG_3362_59
+  - first:
+      213: -763220928233965747
+    second: IMG_3362_60
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IMG_3362_0
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 384
+        width: 535
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d56d3f47e9e23b0800000000000000
+      internalID: -5535312666847453823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_3362_1
+      rect:
+        serializedVersion: 2
+        x: 2023
+        y: 67
+        width: 169
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39fb230a9211a8500800000000000000
+      internalID: 399150387454721939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_3362_2
+      rect:
+        serializedVersion: 2
+        x: 2874
+        y: 44
+        width: 573
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b89f3a62c569e2f0800000000000000
+      internalID: -943110761276794696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_3362_3
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 759
+        width: 594
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a498cb80fd070d70800000000000000
+      internalID: 9009184906366456993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_3362_4
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 1151
+        width: 556
+        height: 352
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23396ae734bb0ecd0800000000000000
+      internalID: -2530817092020169934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_3362_5
+      rect:
+        serializedVersion: 2
+        x: 2704
+        y: 408
+        width: 975
+        height: 1280
+      alignment: 9
+      pivot: {x: 0.47767803, y: 0.41309482}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74b6d771295b38790800000000000000
+      internalID: -7528974512969389241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_3362_16
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1275
+        width: 453
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 396dae20bd46b9ec0800000000000000
+      internalID: -3559140188696684909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_3362_25
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 702
+        width: 574
+        height: 506
+      alignment: 9
+      pivot: {x: 0.43259296, y: 0.31839377}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d181ea2df9e264b0800000000000000
+      internalID: -5448535325609459246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_3362_27
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 761
+        width: 227
+        height: 536
+      alignment: 9
+      pivot: {x: 0.5319593, y: 0.9511625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 952acd639a8bfbd60800000000000000
+      internalID: 7908242507595293273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_3362_37
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 202
+        width: 201
+        height: 519
+      alignment: 9
+      pivot: {x: 0.46390668, y: 0.9519623}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb93893210da843f0800000000000000
+      internalID: -916292303766144577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_3362_41
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 148
+        width: 542
+        height: 496
+      alignment: 9
+      pivot: {x: 0.49553823, y: 0.9875466}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36dd92c65dd30860800000000000000
+      internalID: 7495077569576687164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 115cc6a99801d87488c69b4f73e24980
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      IMG_3362_0: -5535312666847453823
+      IMG_3362_1: 399150387454721939
+      IMG_3362_10: 2672636813758072236
+      IMG_3362_11: -1686727170835413837
+      IMG_3362_12: -6629650528659471926
+      IMG_3362_13: -2244261886603060133
+      IMG_3362_14: -1191660561653738997
+      IMG_3362_15: -5020430657167927966
+      IMG_3362_16: -3559140188696684909
+      IMG_3362_17: -2058237249630343745
+      IMG_3362_18: -2153232958111766177
+      IMG_3362_19: -5168728679239845484
+      IMG_3362_2: -943110761276794696
+      IMG_3362_20: 1819590346307244696
+      IMG_3362_21: 7160659636859715307
+      IMG_3362_22: -7936005413078487323
+      IMG_3362_23: -6324429638628309324
+      IMG_3362_24: 7325746764257322207
+      IMG_3362_25: -5448535325609459246
+      IMG_3362_26: 224452350021711617
+      IMG_3362_27: 7908242507595293273
+      IMG_3362_28: 7380998457646523305
+      IMG_3362_29: -2018449893633152834
+      IMG_3362_3: 9009184906366456993
+      IMG_3362_30: -4749207844678254431
+      IMG_3362_31: -6327470455666037482
+      IMG_3362_32: -4579689550855198078
+      IMG_3362_33: -1991429429676134567
+      IMG_3362_34: 7319331563132736465
+      IMG_3362_35: 5614371995835870993
+      IMG_3362_36: -5108255443824942973
+      IMG_3362_37: -916292303766144577
+      IMG_3362_38: 1971871975109811433
+      IMG_3362_39: -3730082311145661360
+      IMG_3362_4: -2530817092020169934
+      IMG_3362_40: -2319650936533272432
+      IMG_3362_41: 7495077569576687164
+      IMG_3362_42: 731131198396148111
+      IMG_3362_43: -6847019966958108317
+      IMG_3362_44: -4239870250067876153
+      IMG_3362_45: 3379440109004108559
+      IMG_3362_46: 6700923847145100949
+      IMG_3362_47: 1466487313167297476
+      IMG_3362_48: 4247271543561551215
+      IMG_3362_49: -5369876278756693577
+      IMG_3362_5: -7528974512969389241
+      IMG_3362_50: 601563649587435584
+      IMG_3362_51: 4128989662455218442
+      IMG_3362_52: -8446228901833471769
+      IMG_3362_53: 7683454567919966519
+      IMG_3362_54: -7514160365827572650
+      IMG_3362_55: 7205259205883883454
+      IMG_3362_56: -3634983229095187823
+      IMG_3362_57: -5216650275176326605
+      IMG_3362_58: 2625452404570486122
+      IMG_3362_59: 1007705618430780124
+      IMG_3362_6: -4512611625490304804
+      IMG_3362_60: -763220928233965747
+      IMG_3362_7: -6879451759337244919
+      IMG_3362_8: -1310663389284497310
+      IMG_3362_9: -1801685750311324225
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

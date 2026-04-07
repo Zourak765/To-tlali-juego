@@ -1,0 +1,576 @@
+fileFormatVersion: 2
+guid: fba90f648bb31ac429f4b57871543ade
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1790029088977185681
+    second: BASE ZONA 2-A_0
+  - first:
+      213: -4010430649399017044
+    second: BASE ZONA 2-A_1
+  - first:
+      213: -289726863034169208
+    second: BASE ZONA 2-A_2
+  - first:
+      213: 8485773894913300499
+    second: BASE ZONA 2-A_3
+  - first:
+      213: -5839589259667205057
+    second: BASE ZONA 2-A_4
+  - first:
+      213: 2818924615346466998
+    second: BASE ZONA 2-A_5
+  - first:
+      213: -804702129465055120
+    second: BASE ZONA 2-A_6
+  - first:
+      213: -6776564376855949712
+    second: BASE ZONA 2-A_7
+  - first:
+      213: 524180979689384676
+    second: BASE ZONA 2-A_8
+  - first:
+      213: -8493514152835501968
+    second: BASE ZONA 2-A_9
+  - first:
+      213: 5202696723369163577
+    second: BASE ZONA 2-A_10
+  - first:
+      213: 7793313942061071081
+    second: BASE ZONA 2-A_11
+  - first:
+      213: 2818861506651854254
+    second: BASE ZONA 2-A_12
+  - first:
+      213: -5094831855943322458
+    second: BASE ZONA 2-A_13
+  - first:
+      213: 3490689274958921885
+    second: BASE ZONA 2-A_14
+  - first:
+      213: 4536503969899737224
+    second: BASE ZONA 2-A_15
+  - first:
+      213: 8901927581180979492
+    second: BASE ZONA 2-A_16
+  - first:
+      213: 2425059980611405338
+    second: BASE ZONA 2-A_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BASE ZONA 2-A_1
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1819
+        width: 59
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca18b3292961858c0800000000000000
+      internalID: -4010430649399017044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASE ZONA 2-A_2
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 153
+        width: 6234
+        height: 4165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888c5fef3feaafbf0800000000000000
+      internalID: -289726863034169208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASE ZONA 2-A_3
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1113
+        width: 37
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 318179ad56683c570800000000000000
+      internalID: 8485773894913300499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASE ZONA 2-A_4
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1109
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34995ff18c95fea0800000000000000
+      internalID: -5839589259667205057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASE ZONA 2-A_5
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1101
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0b45a9005de1720800000000000000
+      internalID: 2818924615346466998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASE ZONA 2-A_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1081
+        width: 95
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0782c3f3daf15d4f0800000000000000
+      internalID: -804702129465055120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASE ZONA 2-A_7
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1065
+        width: 55
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e4fef5a9ec4f1a0800000000000000
+      internalID: -6776564376855949712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASE ZONA 2-A_8
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1016
+        width: 216
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eae664e2d3464700800000000000000
+      internalID: 524180979689384676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASE ZONA 2-A_9
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 1002
+        width: 44
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070bc79e0e9f02a80800000000000000
+      internalID: -8493514152835501968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASE ZONA 2-A_10
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 995
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93bf186da11b33840800000000000000
+      internalID: 5202696723369163577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASE ZONA 2-A_11
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 989
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea36a35db9672c60800000000000000
+      internalID: 7793313942061071081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASE ZONA 2-A_12
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 983
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea59107fa9b9e1720800000000000000
+      internalID: 2818861506651854254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASE ZONA 2-A_13
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 957
+        width: 117
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a4772cab658b49b0800000000000000
+      internalID: -5094831855943322458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASE ZONA 2-A_14
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 893
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90413fa66b617030800000000000000
+      internalID: 3490689274958921885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASE ZONA 2-A_15
+      rect:
+        serializedVersion: 2
+        x: 7659
+        y: 834
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 880f5004356e4fe30800000000000000
+      internalID: 4536503969899737224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASE ZONA 2-A_16
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 317
+        width: 179
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4296b8c78fff98b70800000000000000
+      internalID: 8901927581180979492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BASE ZONA 2-A_17
+      rect:
+        serializedVersion: 2
+        x: 6768
+        y: 0
+        width: 6
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16cb5f243b87a120800000000000000
+      internalID: 2425059980611405338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: caf31b9f346f5204b8340c9f44304ca5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BASE ZONA 2-A_0: -1790029088977185681
+      BASE ZONA 2-A_1: -4010430649399017044
+      BASE ZONA 2-A_10: 5202696723369163577
+      BASE ZONA 2-A_11: 7793313942061071081
+      BASE ZONA 2-A_12: 2818861506651854254
+      BASE ZONA 2-A_13: -5094831855943322458
+      BASE ZONA 2-A_14: 3490689274958921885
+      BASE ZONA 2-A_15: 4536503969899737224
+      BASE ZONA 2-A_16: 8901927581180979492
+      BASE ZONA 2-A_17: 2425059980611405338
+      BASE ZONA 2-A_2: -289726863034169208
+      BASE ZONA 2-A_3: 8485773894913300499
+      BASE ZONA 2-A_4: -5839589259667205057
+      BASE ZONA 2-A_5: 2818924615346466998
+      BASE ZONA 2-A_6: -804702129465055120
+      BASE ZONA 2-A_7: -6776564376855949712
+      BASE ZONA 2-A_8: 524180979689384676
+      BASE ZONA 2-A_9: -8493514152835501968
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

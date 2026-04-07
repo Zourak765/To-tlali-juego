@@ -1,0 +1,338 @@
+fileFormatVersion: 2
+guid: b17483d9252de4a40997f3b984ccc263
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3390120398937984027
+    second: ECTA_0
+  - first:
+      213: 4242658199044046562
+    second: ECTA_1
+  - first:
+      213: -7981946754906603211
+    second: ECTA_2
+  - first:
+      213: 6172893563916400642
+    second: ECTA_3
+  - first:
+      213: 7676764722681387486
+    second: ECTA_4
+  - first:
+      213: -6625994370732707244
+    second: ECTA_5
+  - first:
+      213: 8101488020892387986
+    second: ECTA_6
+  - first:
+      213: 5675656947983154496
+    second: ECTA_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CABEZA_ECTA_0
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 3274
+        width: 434
+        height: 385
+      alignment: 9
+      pivot: {x: 0.48824638, y: 0.2615133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e3fe73757fd3f0d0800000000000000
+      internalID: -3390120398937984027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TUBER\xCDA-IZQ_ECTA_1"
+      rect:
+        serializedVersion: 2
+        x: 2965
+        y: 2818
+        width: 568
+        height: 906
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee3b694723f0ea30800000000000000
+      internalID: 4242658199044046562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "TUBER\xCDA-DER_ECTA_2"
+      rect:
+        serializedVersion: 2
+        x: 3975
+        y: 2819
+        width: 558
+        height: 913
+      alignment: 9
+      pivot: {x: 0.51828253, y: 0.5111738}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 531c5b177bd6a3190800000000000000
+      internalID: -7981946754906603211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MANO-DER_ECTA_3
+      rect:
+        serializedVersion: 2
+        x: 5658
+        y: 2876
+        width: 855
+        height: 592
+      alignment: 9
+      pivot: {x: 0.7267087, y: 0.22427244}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2083881bdf58aa550800000000000000
+      internalID: 6172893563916400642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MANI-IZQ_ECTA_4
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 2594
+        width: 778
+        height: 655
+      alignment: 9
+      pivot: {x: 0.342644, y: 0.110613964}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed99caf87d8598a60800000000000000
+      internalID: 7676764722681387486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BRAZO-DER_ECTA_5
+      rect:
+        serializedVersion: 2
+        x: 4805
+        y: 946
+        width: 1837
+        height: 1655
+      alignment: 9
+      pivot: {x: 0.083482005, y: 0.6849288}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4523db0d93dbb04a0800000000000000
+      internalID: -6625994370732707244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BRAZO-IZQ_ECTA_6
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 588
+        width: 1822
+        height: 1804
+      alignment: 9
+      pivot: {x: 0.92274666, y: 0.60179275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a8f557e644e6070800000000000000
+      internalID: 8101488020892387986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TORSO_ECTA_7
+      rect:
+        serializedVersion: 2
+        x: 3105
+        y: 1182
+        width: 1279
+        height: 1271
+      alignment: 9
+      pivot: {x: 0.49601167, y: 0.32742628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04d738b5cebf3ce40800000000000000
+      internalID: 5675656947983154496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2bfb6f4314c05744fa4fb19c84f21887
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BRAZO-DER_ECTA_5: -6625994370732707244
+      BRAZO-IZQ_ECTA_6: 8101488020892387986
+      CABEZA_ECTA_0: -3390120398937984027
+      MANI-IZQ_ECTA_4: 7676764722681387486
+      MANO-DER_ECTA_3: 6172893563916400642
+      TORSO_ECTA_7: 5675656947983154496
+      "TUBER\xCDA-DER_ECTA_2": -7981946754906603211
+      "TUBER\xCDA-IZQ_ECTA_1": 4242658199044046562
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
