@@ -8,10 +8,9 @@ public class SpawnerNotas : MonoBehaviour
     public Transform lineaIzquierda;
     public Transform lineaDerecha;
 
-    public AudioSource musica;
+    public MiniJuegoManager miniJuegoManager; // referencia local al manager de esta estatua
 
     float[] espectro = new float[64];
-
     public float sensibilidad = 0.02f;
 
     public float tiempoEntreNotas = 0.35f;
@@ -22,22 +21,21 @@ public class SpawnerNotas : MonoBehaviour
 
     void Update()
     {
+        if (miniJuegoManager == null || miniJuegoManager.musica == null || miniJuegoManager.juegoTerminado)
+            return;
+
         temporizador += Time.deltaTime;
 
-        musica.GetSpectrumData(espectro, 0, FFTWindow.Rectangular);
+        miniJuegoManager.musica.GetSpectrumData(espectro, 0, FFTWindow.Rectangular);
 
         if (espectro[5] > sensibilidad && temporizador >= tiempoEntreNotas)
         {
-            int linea = Random.Range(1, 3); 
+            int linea = Random.Range(1, 3);
 
             if (linea == ultimaLinea)
-            {
                 contadorRepetidas++;
-            }
             else
-            {
                 contadorRepetidas = 0;
-            }
 
             if (contadorRepetidas >= 2)
             {
