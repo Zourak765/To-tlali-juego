@@ -1,0 +1,473 @@
+fileFormatVersion: 2
+guid: 57c32cdce082b554982212882a098cbb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6057492756096972361
+    second: IMG_3381_0
+  - first:
+      213: -4634057111839114339
+    second: IMG_3381_1
+  - first:
+      213: 5244385419366979286
+    second: IMG_3381_2
+  - first:
+      213: -8997735749612085857
+    second: IMG_3381_3
+  - first:
+      213: 701609078096169775
+    second: IMG_3381_4
+  - first:
+      213: 7121386833611075352
+    second: IMG_3381_5
+  - first:
+      213: -6743288126754797245
+    second: IMG_3381_6
+  - first:
+      213: 2673385611837702605
+    second: IMG_3381_7
+  - first:
+      213: 5530947195613708734
+    second: IMG_3381_8
+  - first:
+      213: -5915391437741334261
+    second: IMG_3381_9
+  - first:
+      213: -4040667525834002098
+    second: IMG_3381_10
+  - first:
+      213: -7774060301714080809
+    second: IMG_3381_11
+  - first:
+      213: -8184483803932025316
+    second: IMG_3381_12
+  - first:
+      213: -5484995866659383707
+    second: IMG_3381_13
+  - first:
+      213: -3263025180170769349
+    second: IMG_3381_14
+  - first:
+      213: 3682911792911935739
+    second: IMG_3381_15
+  - first:
+      213: 1014896966501279924
+    second: IMG_3381_16
+  - first:
+      213: -221376752927007254
+    second: IMG_3381_17
+  - first:
+      213: -2735394424658656890
+    second: IMG_3381_18
+  - first:
+      213: 7440476513182340994
+    second: IMG_3381_19
+  - first:
+      213: 7429747424386083444
+    second: IMG_3381_20
+  - first:
+      213: 8127762475401517875
+    second: IMG_3381_21
+  - first:
+      213: -297112435703223730
+    second: IMG_3381_22
+  - first:
+      213: -4844413190032884800
+    second: IMG_3381_23
+  - first:
+      213: -3721752986163661998
+    second: IMG_3381_24
+  - first:
+      213: -584622286223342033
+    second: IMG_3381_25
+  - first:
+      213: -5500624992057846617
+    second: IMG_3381_26
+  - first:
+      213: 3943121640095522064
+    second: IMG_3381_27
+  - first:
+      213: -4728772051250585623
+    second: IMG_3381_28
+  - first:
+      213: 4438146944184044894
+    second: IMG_3381_29
+  - first:
+      213: -5203725190146774890
+    second: IMG_3381_30
+  - first:
+      213: -3242228266712285701
+    second: IMG_3381_31
+  - first:
+      213: -3170588825588833582
+    second: IMG_3381_32
+  - first:
+      213: 3062471978589314147
+    second: IMG_3381_33
+  - first:
+      213: -9205213750404672633
+    second: IMG_3381_34
+  - first:
+      213: -8352582700533581383
+    second: IMG_3381_35
+  - first:
+      213: -4099305430656453267
+    second: IMG_3381_36
+  - first:
+      213: -6793180237421578107
+    second: IMG_3381_37
+  - first:
+      213: 3202183534167446182
+    second: IMG_3381_38
+  - first:
+      213: -7959091869400569724
+    second: IMG_3381_39
+  - first:
+      213: -8532961902426006758
+    second: IMG_3381_40
+  - first:
+      213: 168396423596954231
+    second: IMG_3381_41
+  - first:
+      213: -2763815141032274552
+    second: IMG_3381_42
+  - first:
+      213: 2736265703844074200
+    second: IMG_3381_43
+  - first:
+      213: -1457272872979152914
+    second: IMG_3381_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IMG_3381_0
+      rect:
+        serializedVersion: 2
+        x: 2727
+        y: 955
+        width: 370
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94679a45199801450800000000000000
+      internalID: 6057492756096972361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_3381_1
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 603
+        width: 980
+        height: 1033
+      alignment: 9
+      pivot: {x: 0.47566727, y: 0.27981073}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9bf4fbeb9580bfb0800000000000000
+      internalID: -4634057111839114339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_3381_6
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 158
+        width: 576
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 349cbaa1d270b62a0800000000000000
+      internalID: -6743288126754797245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_3381_25
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 132
+        width: 578
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2681edc02103e7f0800000000000000
+      internalID: -584622286223342033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_3381_26
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 316
+        width: 217
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a491c996bad9a3b0800000000000000
+      internalID: -5500624992057846617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_3381_32
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 702
+        width: 158
+        height: 345
+      alignment: 9
+      pivot: {x: 0.5837248, y: 0.95245486}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d264f9f24ecff3d0800000000000000
+      internalID: -3170588825588833582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_3381_33
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 641
+        width: 154
+        height: 415
+      alignment: 9
+      pivot: {x: 0.4742297, y: 0.9685776}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c5762f906108a20800000000000000
+      internalID: 3062471978589314147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_3381_39
+      rect:
+        serializedVersion: 2
+        x: 2732
+        y: 390
+        width: 383
+        height: 411
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 488eda52d10ab8190800000000000000
+      internalID: -7959091869400569724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ed66aa65acad8464392fdc89603f56b7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      IMG_3381_0: 6057492756096972361
+      IMG_3381_1: -4634057111839114339
+      IMG_3381_10: -4040667525834002098
+      IMG_3381_11: -7774060301714080809
+      IMG_3381_12: -8184483803932025316
+      IMG_3381_13: -5484995866659383707
+      IMG_3381_14: -3263025180170769349
+      IMG_3381_15: 3682911792911935739
+      IMG_3381_16: 1014896966501279924
+      IMG_3381_17: -221376752927007254
+      IMG_3381_18: -2735394424658656890
+      IMG_3381_19: 7440476513182340994
+      IMG_3381_2: 5244385419366979286
+      IMG_3381_20: 7429747424386083444
+      IMG_3381_21: 8127762475401517875
+      IMG_3381_22: -297112435703223730
+      IMG_3381_23: -4844413190032884800
+      IMG_3381_24: -3721752986163661998
+      IMG_3381_25: -584622286223342033
+      IMG_3381_26: -5500624992057846617
+      IMG_3381_27: 3943121640095522064
+      IMG_3381_28: -4728772051250585623
+      IMG_3381_29: 4438146944184044894
+      IMG_3381_3: -8997735749612085857
+      IMG_3381_30: -5203725190146774890
+      IMG_3381_31: -3242228266712285701
+      IMG_3381_32: -3170588825588833582
+      IMG_3381_33: 3062471978589314147
+      IMG_3381_34: -9205213750404672633
+      IMG_3381_35: -8352582700533581383
+      IMG_3381_36: -4099305430656453267
+      IMG_3381_37: -6793180237421578107
+      IMG_3381_38: 3202183534167446182
+      IMG_3381_39: -7959091869400569724
+      IMG_3381_4: 701609078096169775
+      IMG_3381_40: -8532961902426006758
+      IMG_3381_41: 168396423596954231
+      IMG_3381_42: -2763815141032274552
+      IMG_3381_43: 2736265703844074200
+      IMG_3381_44: -1457272872979152914
+      IMG_3381_5: 7121386833611075352
+      IMG_3381_6: -6743288126754797245
+      IMG_3381_7: 2673385611837702605
+      IMG_3381_8: 5530947195613708734
+      IMG_3381_9: -5915391437741334261
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
