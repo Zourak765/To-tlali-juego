@@ -4,6 +4,7 @@ using System.Collections;
 public class EstatuaInteraccion : MonoBehaviour
 {
     public string objetoRequerido = "Instrumento1";
+    public GameManagerEstatuas controlador;
     public GameObject mensajeError;
     public Transform puntoDestino;
     public GameObject jugador;
@@ -11,7 +12,7 @@ public class EstatuaInteraccion : MonoBehaviour
     public AudioClip musicaEstatua;
     public AudioSource musicaMundo;
 
-    public MiniJuegoManager miniJuegoManager; // referencia local al manager de esta estatua
+    public MiniJuegoManager miniJuegoManager; 
     public Sprite estatuaActivada;
     public GameObject textoPerdiste;
 
@@ -57,11 +58,13 @@ public class EstatuaInteraccion : MonoBehaviour
             yield return null;
 
         bool resultado = miniJuegoManager.gano;
+        controlador.SetEstatua1(resultado);
 
         if (resultado)
         {
             if (estatuaRenderer != null)
                 estatuaRenderer.sprite = estatuaActivada;
+           
         }
         else
         {

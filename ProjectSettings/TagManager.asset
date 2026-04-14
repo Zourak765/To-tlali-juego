@@ -44,38 +44,11 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Jugador
+  - name: ground
     uniqueID: 1986938607
     locked: 0
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: BASES
-    uniqueID: 1741189635
-    locked: 0
-  - name: ROCAS TRASERAS
-    uniqueID: 984178799
-    locked: 0
-  - name: "VEGETACI\xD3N TRASERA"
-    uniqueID: 3803359499
-    locked: 0
-  - name: "\xC1RBOLES"
-    uniqueID: 3327180645
-    locked: 0
-  - name: EDIFICIOS
-    uniqueID: 1418673227
-    locked: 0
-  - name: OBJETOS
-    uniqueID: 425256541
-    locked: 0
-  - name: ALTARES
-    uniqueID: 4248113571
-    locked: 0
-  - name: "VEGETACI\xD3N FRONTAL"
-    uniqueID: 351838121
-    locked: 0
-  - name: ROCAS FRONTALES
-    uniqueID: 1252630869
     locked: 0
   m_RenderingLayers:
   - Default
