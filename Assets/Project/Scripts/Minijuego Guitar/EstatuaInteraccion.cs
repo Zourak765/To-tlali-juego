@@ -5,6 +5,9 @@ public class EstatuaInteraccion : MonoBehaviour
 {
     public string objetoRequerido = "Instrumento1";
     public GameManagerEstatuas controlador;
+
+    public GameManagerEstatuas.listaestatua tipoEstatua;
+
     public GameObject mensajeError;
     public Transform puntoDestino;
     public GameObject jugador;
@@ -12,22 +15,28 @@ public class EstatuaInteraccion : MonoBehaviour
     public AudioClip musicaEstatua;
     public AudioSource musicaMundo;
 
-    public MiniJuegoManager miniJuegoManager; 
+    public MiniJuegoManager miniJuegoManager;
     public Sprite estatuaActivada;
     public GameObject textoPerdiste;
 
+    public SpriteRenderer estatuaRenderer;
+
     private bool enZona = false;
     private bool juegoIniciado = false;
-    private SpriteRenderer estatuaRenderer;
+    private bool yaActivada = false;
 
     void Start()
     {
-        estatuaRenderer = GetComponentInChildren<SpriteRenderer>();
         textoPerdiste.SetActive(false);
     }
 
     void Update()
     {
+        if (!yaActivada && controlador.GetEstatua(tipoEstatua))
+        {
+            ActivarEstatuaVisual();
+        }
+
         if (enZona && Input.GetKeyDown(KeyCode.E) && !juegoIniciado)
         {
             if (InventMenu.instancia.TieneObjetoUnico(objetoRequerido))
@@ -58,15 +67,10 @@ public class EstatuaInteraccion : MonoBehaviour
             yield return null;
 
         bool resultado = miniJuegoManager.gano;
-        controlador.SetEstatua1(resultado);
 
-        if (resultado)
-        {
-            if (estatuaRenderer != null)
-                estatuaRenderer.sprite = estatuaActivada;
-           
-        }
-        else
+        controlador.SetEstatua(tipoEstatua, resultado);
+
+        if (!resultado)
         {
             textoPerdiste.SetActive(true);
             yield return new WaitForSeconds(2f);
@@ -80,6 +84,14 @@ public class EstatuaInteraccion : MonoBehaviour
 
         movimientoJugador.enabled = true;
         juegoIniciado = false;
+    }
+
+    void ActivarEstatuaVisual()
+    {
+        yaActivada = true;
+
+        if (estatuaRenderer != null)
+            estatuaRenderer.sprite = estatuaActivada;
     }
 
     IEnumerator MostrarMensaje()
