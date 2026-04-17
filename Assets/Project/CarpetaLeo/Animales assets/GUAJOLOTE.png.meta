@@ -1,0 +1,380 @@
+fileFormatVersion: 2
+guid: d0508d21a802d474cad385e55acba9aa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5025141495615628636
+    second: GUAJOLOTE_0
+  - first:
+      213: -7906200188605633328
+    second: GUAJOLOTE_1
+  - first:
+      213: 3969674746404487070
+    second: GUAJOLOTE_2
+  - first:
+      213: -2346381365431854064
+    second: GUAJOLOTE_3
+  - first:
+      213: -1178969616278137483
+    second: GUAJOLOTE_4
+  - first:
+      213: 6392262662444336122
+    second: GUAJOLOTE_5
+  - first:
+      213: 5523355370130632214
+    second: GUAJOLOTE_6
+  - first:
+      213: -8286636736413862515
+    second: GUAJOLOTE_7
+  - first:
+      213: 1430239616044585772
+    second: GUAJOLOTE_8
+  - first:
+      213: -5131066969993255083
+    second: GUAJOLOTE_9
+  - first:
+      213: -8690047279059880319
+    second: GUAJOLOTE_10
+  - first:
+      213: -878650476448306322
+    second: GUAJOLOTE_11
+  - first:
+      213: 1387551540981078507
+    second: GUAJOLOTE_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GUAJOLOTE_1
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 541
+        width: 18
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dce80b31d8874290800000000000000
+      internalID: -7906200188605633328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUAJOLOTE_2
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 544
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f374d462e171730800000000000000
+      internalID: 3969674746404487070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZA_GUAJOLOTE_3
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 276
+        width: 106
+        height: 329
+      alignment: 9
+      pivot: {x: 0.49135488, y: 0.1323361}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c96dd649aff6fd0800000000000000
+      internalID: -2346381365431854064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PICO_GUAJOLOTE_4
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 496
+        width: 92
+        height: 34
+      alignment: 9
+      pivot: {x: 0.24102584, y: 0.4460952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57553c4616573afe0800000000000000
+      internalID: -1178969616278137483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CUERPO_GUAJOLOTE_5
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 159
+        width: 387
+        height: 331
+      alignment: 9
+      pivot: {x: 0.5023681, y: 0.10687256}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af3ccf91601e5b850800000000000000
+      internalID: 6392262662444336122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOCO_GUAJOLOTE_6
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 409
+        width: 38
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5723459, y: 0.8092762}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ee1e4f176e6ac40800000000000000
+      internalID: 5523355370130632214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PATA I_GUAJOLOTE
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 40
+        width: 41
+        height: 85
+      alignment: 9
+      pivot: {x: 0.4776492, y: 0.70483553}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d85795feac3fffc80800000000000000
+      internalID: -8286636736413862515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PATA D_GUAJOLOTE
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 40
+        width: 41
+        height: 85
+      alignment: 9
+      pivot: {x: 0.47764772, y: 0.8234258}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2357026a5b39d310800000000000000
+      internalID: 1430239616044585772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLUMA1_GUAJOLOTE_12
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 0
+        width: 230
+        height: 84
+      alignment: 9
+      pivot: {x: 0.91834503, y: 0.3036347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be919b366c2914310800000000000000
+      internalID: 1387551540981078507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 336e9a4952f182540a8eed0c0eb147a7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CABEZA_GUAJOLOTE_3: -2346381365431854064
+      CUERPO_GUAJOLOTE_5: 6392262662444336122
+      GUAJOLOTE_0: 5025141495615628636
+      GUAJOLOTE_1: -7906200188605633328
+      GUAJOLOTE_2: 3969674746404487070
+      MOCO_GUAJOLOTE_6: 5523355370130632214
+      PATA D_GUAJOLOTE: 1430239616044585772
+      PATA I_GUAJOLOTE: -8286636736413862515
+      PICO_GUAJOLOTE_4: -1178969616278137483
+      PLUMA1_GUAJOLOTE_12: 1387551540981078507
+      PLUMA2_GUAJOLOTE_9: -5131066969993255083
+      PLUMA3_GUAJOLOTE_10: -8690047279059880319
+      PLUMA4_GUAJOLOTE_11: -878650476448306322
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
