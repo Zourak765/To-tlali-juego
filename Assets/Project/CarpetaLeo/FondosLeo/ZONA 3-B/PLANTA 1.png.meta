@@ -116,12 +116,12 @@ TextureImporter:
       name: PLANTA 1_0
       rect:
         serializedVersion: 2
-        x: 44
+        x: 0
         y: 0
-        width: 245
-        height: 194
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 334
+        height: 238
+      alignment: 9
+      pivot: {x: 0.44951653, y: 0.050124016}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a79df37bc481c654798fa2c93224d0f1
     internalID: 0
     vertices: []
     indices: 

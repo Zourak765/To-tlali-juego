@@ -116,12 +116,12 @@ TextureImporter:
       name: MILPA 4_0
       rect:
         serializedVersion: 2
-        x: 48
+        x: 0
         y: 0
-        width: 141
-        height: 282
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 238
+        height: 331
+      alignment: 9
+      pivot: {x: 0.47044092, y: 0.028869905}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5a13df67e1416dc4790ce83ae5618e5d
     internalID: 0
     vertices: []
     indices: 

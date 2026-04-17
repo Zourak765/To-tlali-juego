@@ -116,10 +116,10 @@ TextureImporter:
       name: HIERBA 2_0
       rect:
         serializedVersion: 2
-        x: 38
+        x: 0
         y: 0
-        width: 103
-        height: 72
+        width: 180
+        height: 90
       alignment: 9
       pivot: {x: 0.42674595, y: 0.06311251}
       border: {x: 0, y: 0, z: 0, w: 0}

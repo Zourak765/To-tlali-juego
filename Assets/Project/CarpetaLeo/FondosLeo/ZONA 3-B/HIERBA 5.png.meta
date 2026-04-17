@@ -116,12 +116,12 @@ TextureImporter:
       name: HIERBA 5_0
       rect:
         serializedVersion: 2
-        x: 18
+        x: 0
         y: 0
-        width: 63
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 100
+        height: 52
+      alignment: 9
+      pivot: {x: 0.48771995, y: 0.08908953}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6a6b4faa205ca19479cfe1c6c15253f4
     internalID: 0
     vertices: []
     indices: 

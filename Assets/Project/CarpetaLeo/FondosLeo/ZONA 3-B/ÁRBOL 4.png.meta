@@ -116,12 +116,12 @@ TextureImporter:
       name: "\xC1RBOL 4_0"
       rect:
         serializedVersion: 2
-        x: 67
+        x: 0
         y: 0
-        width: 505
-        height: 563
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 640
+        height: 620
+      alignment: 9
+      pivot: {x: 0.47535568, y: 0.09299897}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6e6bb57eb0b0d8d44b1cfa4ab4e7323e
     internalID: 0
     vertices: []
     indices: 

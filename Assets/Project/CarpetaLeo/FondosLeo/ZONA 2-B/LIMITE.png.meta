@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 32a8b9df3261a524691bb855d891131b
+guid: b8036fd073d272d4596cc3111bde2b64
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3071888830345573353
-    second: ROCA 10_0
+      213: 5256762033393965056
+    second: LIMITE_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ROCA 10_0
+      name: LIMITE_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 133
-        height: 72
-      alignment: 9
-      pivot: {x: 0.5549727, y: 0.17528628}
+        width: 155
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 71c03c562657e55d0800000000000000
-      internalID: -3071888830345573353
+      spriteID: 0081535c735c3f840800000000000000
+      internalID: 5256762033393965056
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: fe576e0e2e74c9540938cc51c14786c1
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ROCA 10_0: -3071888830345573353
+      LIMITE_0: 5256762033393965056
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

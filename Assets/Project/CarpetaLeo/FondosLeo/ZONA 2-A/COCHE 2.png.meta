@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 32a8b9df3261a524691bb855d891131b
+guid: aeb253b2449c1e849a037a362a292ec7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3071888830345573353
-    second: ROCA 10_0
+      213: -6755241271710088971
+    second: COCHE 2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ROCA 10_0
+      name: COCHE 2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 133
-        height: 72
+        width: 543
+        height: 291
       alignment: 9
-      pivot: {x: 0.5549727, y: 0.17528628}
+      pivot: {x: 0.5018984, y: 0.16820167}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 71c03c562657e55d0800000000000000
-      internalID: -3071888830345573353
+      spriteID: 5f089abaadf8042a0800000000000000
+      internalID: -6755241271710088971
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: fe576e0e2e74c9540938cc51c14786c1
+    spriteID: 4d357acce4fd2844692b416d7adbe357
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ROCA 10_0: -3071888830345573353
+      COCHE 2_0: -6755241271710088971
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

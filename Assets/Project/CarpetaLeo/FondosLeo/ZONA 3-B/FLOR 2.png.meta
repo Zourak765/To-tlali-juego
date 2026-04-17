@@ -116,12 +116,12 @@ TextureImporter:
       name: FLOR 2_0
       rect:
         serializedVersion: 2
-        x: 49
+        x: 0
         y: 0
-        width: 73
-        height: 93
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 172
+        height: 142
+      alignment: 9
+      pivot: {x: 0.44346002, y: 0.052485418}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5b0ef2870302c074e81d39f6282dbcc3
     internalID: 0
     vertices: []
     indices: 
