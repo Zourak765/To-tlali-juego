@@ -116,12 +116,12 @@ TextureImporter:
       name: MAIZAL 2_0
       rect:
         serializedVersion: 2
-        x: 49
+        x: 0
         y: 0
-        width: 197
-        height: 388
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 296
+        height: 437
+      alignment: 9
+      pivot: {x: 0.54532427, y: 0.02532762}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 190a830550951444c9e2c06539382d6c
     internalID: 0
     vertices: []
     indices: 

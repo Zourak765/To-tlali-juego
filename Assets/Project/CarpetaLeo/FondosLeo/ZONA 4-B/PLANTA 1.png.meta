@@ -116,10 +116,10 @@ TextureImporter:
       name: PLANTA 1_0
       rect:
         serializedVersion: 2
-        x: 44
+        x: 0
         y: 0
-        width: 245
-        height: 194
+        width: 334
+        height: 238
       alignment: 9
       pivot: {x: 0.4231484, y: 0.046593852}
       border: {x: 0, y: 0, z: 0, w: 0}
