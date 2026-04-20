@@ -1,13 +1,11 @@
 using UnityEngine;
 using System.Collections;
 
-public class SpawnerCarros : MonoBehaviour
+public class SpawnCarIzq : MonoBehaviour
 {
     public GameObject[] carros;
 
-    public Transform puntoSpawn;
-    public Transform destino;
-
+    public Transform puntoSpawn; 
     public float tiempoMin = 1f;
     public float tiempoMax = 3f;
 
@@ -28,10 +26,6 @@ public class SpawnerCarros : MonoBehaviour
     void SpawnCarro()
     {
         GameObject carroElegido = carros[Random.Range(0, carros.Length)];
-
-        GameObject nuevoCarro = Instantiate(carroElegido, puntoSpawn.position, Quaternion.identity);
-
-        Carro carroScript = nuevoCarro.GetComponent<Carro>();
-        carroScript.destino = destino;
+        Instantiate(carroElegido, puntoSpawn.position, Quaternion.identity);
     }
 }

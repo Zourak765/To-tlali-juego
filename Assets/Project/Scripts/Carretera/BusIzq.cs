@@ -1,23 +1,26 @@
 using UnityEngine;
 
-public class Carro : MonoBehaviour
+public class BusIzq : MonoBehaviour
 {
-    public Transform destino;
     public float velocidad = 5f;
 
     private Rigidbody2D rb;
-    private float direccion;
+    private SpriteRenderer sr;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
 
-        direccion = Mathf.Sign(destino.position.x - transform.position.x);
+        if (sr != null)
+        {
+            sr.flipX = true;
+        }
     }
 
     void FixedUpdate()
     {
-        rb.linearVelocity = new Vector2(direccion * velocidad, 0f);
+        rb.linearVelocity = new Vector2(-velocidad, 0f);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

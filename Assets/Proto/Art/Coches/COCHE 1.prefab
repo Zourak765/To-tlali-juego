@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &8157487351394667551
+--- !u!1 &2496256104179583179
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,11 +8,11 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1757783860234266206}
-  - component: {fileID: 5619430733570648110}
-  - component: {fileID: 1551312255375644158}
-  - component: {fileID: 849875603738437591}
-  - component: {fileID: 487264034192294115}
+  - component: {fileID: 6412676000353291286}
+  - component: {fileID: 3874081743661680306}
+  - component: {fileID: 6531546519589607946}
+  - component: {fileID: 2269551503276680730}
+  - component: {fileID: 3505435744616312605}
   m_Layer: 0
   m_Name: COCHE 1
   m_TagString: Untagged
@@ -20,28 +20,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1757783860234266206
+--- !u!4 &6412676000353291286
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8157487351394667551}
+  m_GameObject: {fileID: 2496256104179583179}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 61.409878, y: 99.88458, z: 0}
+  m_LocalPosition: {x: 117.510666, y: 112.5933, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &5619430733570648110
+--- !u!212 &3874081743661680306
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8157487351394667551}
+  m_GameObject: {fileID: 2496256104179583179}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -81,7 +81,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 8
   m_Sprite: {fileID: 21300000, guid: 3a3e53fc8aa674e4fad5f2f3ddd47e02, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -93,28 +93,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1551312255375644158
+--- !u!114 &6531546519589607946
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8157487351394667551}
+  m_GameObject: {fileID: 2496256104179583179}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bb5902b857c671c4192a3ef475d8e5e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Carro
-  velocidad: 3
   destino: {fileID: 0}
-  puntoInicioJugador: {fileID: 0}
---- !u!61 &849875603738437591
+  velocidad: 5
+--- !u!61 &2269551503276680730
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8157487351394667551}
+  m_GameObject: {fileID: 2496256104179583179}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -138,7 +137,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -154,22 +153,22 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 5.43, y: 2.91}
   m_EdgeRadius: 0
---- !u!50 &487264034192294115
+--- !u!50 &3505435744616312605
 Rigidbody2D:
   serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8157487351394667551}
-  m_BodyType: 1
+  m_GameObject: {fileID: 2496256104179583179}
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
