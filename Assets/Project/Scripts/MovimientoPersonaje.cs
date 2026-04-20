@@ -1,45 +1,70 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MovimientoPersonaje : MonoBehaviour
 {
-    public float velocidad;
-    float movimientoX;
-    float movimientoY;
-    bool aCorrer = false;
+    public float velocidadNormal = 7f;
+    public float velocidadCorrer = 12f;
 
-    PlayerTeleport estado; 
+    public Transform playerGraphic; 
+    public Canvas uiCanvas;         
+
+    private float movimientoX;
+    private float movimientoY;
+    private bool mirandoDerecha = true;
+
+    private PlayerTeleport estado;
+    private Animator animator;
 
     void Start()
     {
         estado = GetComponent<PlayerTeleport>();
+        animator = GetComponentInChildren<Animator>();
+
+        if (animator == null)
+            Debug.LogWarning("No se encontró Animator en el Player o sus hijos.");
     }
 
     void Update()
     {
-        if (estado != null)
-        {
-            if (estado.puedeTeletransportarse == false)
-            {
-                return;
-            }
-        }
-
-        if (Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0)
-        {
-            if (aCorrer) { velocidad = 12f; } else { velocidad = 7f; }
-        }
-        if (Input.GetAxisRaw("Horizontal") != 0 && Input.GetAxisRaw("Vertical") != 0)
-        {
-            if (aCorrer) { velocidad = 8f; } else { velocidad = 4f; }
-        }
-
-        if (Input.GetKey(KeyCode.RightShift) || Input.GetKey(KeyCode.LeftShift)) { aCorrer = true; } else { aCorrer = false; }
+        if (estado != null && !estado.puedeTeletransportarse)
+            return;
 
         movimientoX = Input.GetAxisRaw("Horizontal");
         movimientoY = Input.GetAxisRaw("Vertical");
 
-        GetComponent<Transform>().Translate(new Vector3(movimientoX * velocidad, movimientoY * velocidad, 0) * Time.deltaTime);
+        bool corriendo = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
+
+        float velocidadActual;
+
+        if (movimientoX != 0 && movimientoY != 0)
+            velocidadActual = corriendo ? 8f : 4f;
+        else if (movimientoX != 0 || movimientoY != 0)
+            velocidadActual = corriendo ? velocidadCorrer : velocidadNormal;
+        else
+            velocidadActual = 0f;
+
+        if (animator != null)
+        {
+            animator.SetFloat("Velocidad", velocidadActual);
+            animator.SetBool("Corriendo", corriendo);
+        }
+
+        if (movimientoX > 0 && mirandoDerecha)
+            Flip();
+        else if (movimientoX < 0 && !mirandoDerecha)
+            Flip();
+
+        transform.Translate(new Vector3(movimientoX * velocidadActual, movimientoY * velocidadActual, 0) * Time.deltaTime);
+
+        if (uiCanvas != null)
+            uiCanvas.transform.position = uiCanvas.transform.position;
+    }
+
+    void Flip()
+    {
+        mirandoDerecha = !mirandoDerecha;
+        Vector3 escala = playerGraphic.localScale;
+        escala.x = mirandoDerecha ? Mathf.Abs(escala.x) : -Mathf.Abs(escala.x);
+        playerGraphic.localScale = escala;
     }
 }

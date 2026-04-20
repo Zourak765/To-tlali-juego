@@ -2,39 +2,39 @@ using UnityEngine;
 
 public class Carro : MonoBehaviour
 {
+    public Transform destino;
     public float velocidad = 5f;
 
-    [HideInInspector]
-    public Transform destino;
+    private Rigidbody2D rb;
+    private float direccion;
 
-    public Transform puntoInicioJugador;
-
-    void Update()
+    void Start()
     {
-        if (destino != null)
-        {
-            transform.position = Vector3.MoveTowards(
-                transform.position,
-                destino.position,
-                velocidad * Time.deltaTime
-            );
+        rb = GetComponent<Rigidbody2D>();
 
-            if (Vector3.Distance(transform.position, destino.position) < 0.1f)
-            {
-                Destroy(gameObject);
-            }
-        }
+        direccion = Mathf.Sign(destino.position.x - transform.position.x);
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    void FixedUpdate()
     {
-        Debug.Log("Choque con: " + other.name);
+        rb.linearVelocity = new Vector2(direccion * velocidad, 0f);
+    }
 
-        if (other.CompareTag("Player"))
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Destino"))
         {
-            Debug.Log("ES EL PLAYER");
+            Destroy(gameObject);
+        }
 
-            other.transform.position = puntoInicioJugador.position;
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            PlayerInicio player = collision.gameObject.GetComponent<PlayerInicio>();
+
+            if (player != null)
+            {
+                player.RegresarAlInicio();
+            }
         }
     }
 }

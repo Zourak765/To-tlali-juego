@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2ee2ebde50f729343980a4533808abb9
+guid: bb24f64f6edefa449900e0738908c336
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -48,7 +48,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -129,10 +129,10 @@ TextureImporter:
       name: PLANTA 1_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 44
         y: 0
-        width: 243
-        height: 193
+        width: 245
+        height: 194
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
