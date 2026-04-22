@@ -1,0 +1,446 @@
+fileFormatVersion: 2
+guid: 0b1ae0809577d4e468f7b6bda34c533e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9012680135896847612
+    second: PERRO_0
+  - first:
+      213: -4349369412579403875
+    second: PERRO_1
+  - first:
+      213: 6693973373531981374
+    second: PERRO_2
+  - first:
+      213: 7080997040182295400
+    second: PERRO_3
+  - first:
+      213: 6705866860810757472
+    second: PERRO_4
+  - first:
+      213: 6951287653995321938
+    second: PERRO_5
+  - first:
+      213: -5535556746002908653
+    second: PERRO_6
+  - first:
+      213: 1648222377351984506
+    second: PERRO_7
+  - first:
+      213: -5270377436482341098
+    second: PERRO_8
+  - first:
+      213: 8594729515409866027
+    second: PERRO_9
+  - first:
+      213: 8729197477458379130
+    second: PERRO_10
+  - first:
+      213: -9038809847732962186
+    second: PERRO_11
+  - first:
+      213: 2117810013596629891
+    second: PERRO_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PERRO_1
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 420
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97514e209fe3a3c0800000000000000
+      internalID: -4349369412579403875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERRO_2
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 424
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e360c492155c5ec50800000000000000
+      internalID: 6693973373531981374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERRO_3
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 411
+        width: 81
+        height: 80
+      alignment: 9
+      pivot: {x: 0.55010307, y: 0.3623062}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86b78a39a41c44260800000000000000
+      internalID: 7080997040182295400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERRO_4
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 402
+        width: 77
+        height: 89
+      alignment: 9
+      pivot: {x: 0.4924697, y: 0.23291872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06560b57166001d50800000000000000
+      internalID: 6705866860810757472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERRO_5
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 325
+        width: 63
+        height: 76
+      alignment: 9
+      pivot: {x: 0.7116583, y: 0.2482613}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a13f3ba4fe77060800000000000000
+      internalID: 6951287653995321938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERRO_6
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 320
+        width: 82
+        height: 76
+      alignment: 9
+      pivot: {x: 0.52828014, y: 0.70596755}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31aba78d770cd23b0800000000000000
+      internalID: -5535556746002908653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERRO_7
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 160
+        width: 255
+        height: 208
+      alignment: 9
+      pivot: {x: 0.23626566, y: 0.18782073}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a753ae00589afd610800000000000000
+      internalID: 1648222377351984506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERRO_8
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 153
+        width: 255
+        height: 143
+      alignment: 9
+      pivot: {x: 0.47953767, y: 0.4229685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6177c3a25abdbd6b0800000000000000
+      internalID: -5270377436482341098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERRO_9
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 0
+        width: 87
+        height: 124
+      alignment: 9
+      pivot: {x: 0.47334412, y: 0.81325805}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2df19a15fc964770800000000000000
+      internalID: 8594729515409866027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERRO_10
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 0
+        width: 87
+        height: 124
+      alignment: 9
+      pivot: {x: 0.4533523, y: 0.80858266}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7184224bd6542970800000000000000
+      internalID: 8729197477458379130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERRO_11
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 0
+        width: 87
+        height: 124
+      alignment: 9
+      pivot: {x: 0.43336084, y: 0.8459868}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67cf2994552bf8280800000000000000
+      internalID: -9038809847732962186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PERRO_12
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 0
+        width: 87
+        height: 124
+      alignment: 9
+      pivot: {x: 0.43, y: 0.82}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38b313a9cf8f36d10800000000000000
+      internalID: 2117810013596629891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 17542609cb20f37479e5f3fe48acb6e1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PERRO_0: -9012680135896847612
+      PERRO_1: -4349369412579403875
+      PERRO_10: 8729197477458379130
+      PERRO_11: -9038809847732962186
+      PERRO_12: 2117810013596629891
+      PERRO_2: 6693973373531981374
+      PERRO_3: 7080997040182295400
+      PERRO_4: 6705866860810757472
+      PERRO_5: 6951287653995321938
+      PERRO_6: -5535556746002908653
+      PERRO_7: 1648222377351984506
+      PERRO_8: -5270377436482341098
+      PERRO_9: 8594729515409866027
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
