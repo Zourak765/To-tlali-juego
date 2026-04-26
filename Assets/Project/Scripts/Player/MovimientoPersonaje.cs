@@ -2,6 +2,9 @@ using UnityEngine;
 
 public class MovimientoPersonaje : MonoBehaviour
 {
+
+    [SerializeField] private InputController input;
+
     public float velocidadNormal = 7f;
     public float velocidadCorrer = 12f;
 
@@ -21,7 +24,7 @@ public class MovimientoPersonaje : MonoBehaviour
         animator = GetComponentInChildren<Animator>();
 
         if (animator == null)
-            Debug.LogWarning("No se encontró Animator en el Player o sus hijos.");
+            Debug.LogWarning("No se encontrï¿½ Animator en el Player o sus hijos.");
     }
 
     void Update()
@@ -29,10 +32,9 @@ public class MovimientoPersonaje : MonoBehaviour
         if (estado != null && !estado.puedeTeletransportarse)
             return;
 
-        movimientoX = Input.GetAxisRaw("Horizontal");
-        movimientoY = Input.GetAxisRaw("Vertical");
-
-        bool corriendo = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
+        movimientoX = input.MovementDir.x;
+        movimientoY = input.MovementDir.y;
+        bool corriendo = input.Run.IsPressed();
 
         float velocidadActual;
 

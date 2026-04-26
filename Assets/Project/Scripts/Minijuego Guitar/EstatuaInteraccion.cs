@@ -21,7 +21,6 @@ public class EstatuaInteraccion : MonoBehaviour
 
     public SpriteRenderer estatuaRenderer;
 
-    private bool enZona = false;
     private bool juegoIniciado = false;
     private bool yaActivada = false;
 
@@ -36,18 +35,14 @@ public class EstatuaInteraccion : MonoBehaviour
         {
             ActivarEstatuaVisual();
         }
+    }
 
-        if (enZona && Input.GetKeyDown(KeyCode.E) && !juegoIniciado)
-        {
-            if (InventMenu.instancia.TieneObjetoUnico(objetoRequerido))
-            {
-                StartCoroutine(SecuenciaCompleta());
-            }
-            else
-            {
-                StartCoroutine(MostrarMensaje());
-            }
-        }
+    public void ActivateStatue()
+    {
+        if(juegoIniciado) return;
+
+        if (InventMenu.instancia.TieneObjetoUnico(objetoRequerido)) StartCoroutine(SecuenciaCompleta());
+        else StartCoroutine(MostrarMensaje());
     }
 
     IEnumerator SecuenciaCompleta()
@@ -101,13 +96,13 @@ public class EstatuaInteraccion : MonoBehaviour
         mensajeError.SetActive(false);
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Player")) enZona = true;
-    }
+    // private void OnTriggerEnter2D(Collider2D other)
+    // {
+    //     if (other.CompareTag("Player")) enZona = true;
+    // }
 
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.CompareTag("Player")) enZona = false;
-    }
+    // private void OnTriggerExit2D(Collider2D other)
+    // {
+    //     if (other.CompareTag("Player")) enZona = false;
+    // }
 }
