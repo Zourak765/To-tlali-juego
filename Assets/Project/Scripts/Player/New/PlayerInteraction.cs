@@ -8,14 +8,12 @@ public class PlayerInteraction : MonoBehaviour
 
     private IInteractable detectedInteractable;
 
-    private void Update() => DetectInteractables();
-
     public void TryInteract()
     {
         if(detectedInteractable != null) detectedInteractable.Interact();
     }
 
-    private void DetectInteractables()
+    public void DetectInteractables()
     {
         Vector2 center = (Vector2)transform.position + offset;
         Collider2D[] detectedCols = Physics2D.OverlapCircleAll(center, radius, mask);
