@@ -21,14 +21,11 @@ public class PlayerInteraction : MonoBehaviour
         IInteractable currentInteractable = null;
         foreach (Collider2D col in detectedCols)
         {
-            //si no encuentra el componente (interfaz) IInteractable, pasa al sig elemento.
             if(!col.TryGetComponent(out IInteractable interactable)) continue;
-            // si si lo encontro:
             currentInteractable = interactable;
         }
         detectedInteractable = currentInteractable;
     }
-
 
     private void OnDrawGizmos()
     {
