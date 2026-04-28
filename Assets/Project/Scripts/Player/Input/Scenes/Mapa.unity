@@ -115993,11 +115993,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
---- !u!1 &1737116923 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1964913297584532533, guid: a8f53b0b8be1ee64b9f22462a336b2e8, type: 3}
-  m_PrefabInstance: {fileID: 1953539915}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1738016921
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -129361,24 +129356,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 576523985}
     m_Modifications:
     - target: {fileID: 1397848281039142987, guid: a8f53b0b8be1ee64b9f22462a336b2e8, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1397848281039142987, guid: a8f53b0b8be1ee64b9f22462a336b2e8, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1397848281039142987, guid: a8f53b0b8be1ee64b9f22462a336b2e8, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1397848281039142987, guid: a8f53b0b8be1ee64b9f22462a336b2e8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.28
+      value: -4.63
       objectReference: {fileID: 0}
     - target: {fileID: 1397848281039142987, guid: a8f53b0b8be1ee64b9f22462a336b2e8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -13.6
+      value: -12.71
       objectReference: {fileID: 0}
     - target: {fileID: 1397848281039142987, guid: a8f53b0b8be1ee64b9f22462a336b2e8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -129412,10 +129395,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1397848281039142987, guid: a8f53b0b8be1ee64b9f22462a336b2e8, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1964913297584532533, guid: a8f53b0b8be1ee64b9f22462a336b2e8, type: 3}
       propertyPath: m_Name
       value: PERRO_RIG
@@ -129423,10 +129402,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1964913297584532533, guid: a8f53b0b8be1ee64b9f22462a336b2e8, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2005470022}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8f53b0b8be1ee64b9f22462a336b2e8, type: 3}
 --- !u!1 &1954748464
 GameObject:
@@ -132731,18 +132707,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1397848281039142987, guid: a8f53b0b8be1ee64b9f22462a336b2e8, type: 3}
   m_PrefabInstance: {fileID: 1953539915}
   m_PrefabAsset: {fileID: 0}
---- !u!210 &2005470022
-SortingGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1737116923}
-  m_Enabled: 1
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortAtRoot: 0
 --- !u!1 &2006165885
 GameObject:
   m_ObjectHideFlags: 0
