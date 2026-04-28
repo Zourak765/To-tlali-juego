@@ -11,7 +11,6 @@ public class EstatuaInteraccion : MonoBehaviour
     public GameObject mensajeError;
     public Transform puntoDestino;
     public GameObject jugador;
-    public MonoBehaviour movimientoJugador;
     public AudioClip musicaEstatua;
     public AudioSource musicaMundo;
 
@@ -23,6 +22,8 @@ public class EstatuaInteraccion : MonoBehaviour
 
     private bool juegoIniciado = false;
     private bool yaActivada = false;
+
+    private Player currentPlayer;
 
     void Start()
     {
@@ -41,26 +42,25 @@ public class EstatuaInteraccion : MonoBehaviour
     {
         if (juegoIniciado) return;
 
+        if(currentPlayer == null) currentPlayer = FindFirstObjectByType<Player>();
+
         if (InventMenu.instancia.TieneObjetoUnico(objetoRequerido)) StartCoroutine(SecuenciaCompleta());
         else StartCoroutine(MostrarMensaje());
     }
 
     IEnumerator SecuenciaCompleta()
     {
+        currentPlayer.Deactivate("Minijuego");
         juegoIniciado = true;
-        movimientoJugador.enabled = false;
 
-        if (musicaMundo != null)
-            musicaMundo.Pause();
+        if (musicaMundo != null) musicaMundo.Pause();
 
         jugador.transform.position = puntoDestino.position;
         yield return new WaitForSeconds(0.5f);
 
         miniJuegoManager.IniciarMinijuego(musicaEstatua, miniJuegoManager.canvasMinijuego);
 
-        while (!miniJuegoManager.juegoTerminado)
-            yield return null;
-
+        while (!miniJuegoManager.juegoTerminado) yield return null;
         bool resultado = miniJuegoManager.gano;
 
         controlador.SetEstatua(tipoEstatua, resultado);
@@ -74,18 +74,9 @@ public class EstatuaInteraccion : MonoBehaviour
 
         miniJuegoManager.canvasMinijuego.SetActive(false);
 
-        if (musicaMundo != null)
-            musicaMundo.UnPause();
+        if (musicaMundo != null) musicaMundo.UnPause();
 
-        Rigidbody2D rb = jugador.GetComponent<Rigidbody2D>();
-        if (rb != null)
-            rb.linearVelocity = Vector2.zero;
-
-        PlayerMovement mov = jugador.GetComponent<PlayerMovement>();
-        if (mov != null)
-            mov.SetDirection(Vector2.zero);
-
-        movimientoJugador.enabled = true;
+        currentPlayer.Activate("Minijuego");
         juegoIniciado = false;
     }
 

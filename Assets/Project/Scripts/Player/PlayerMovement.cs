@@ -16,6 +16,15 @@ public class PlayerMovement : MonoBehaviour
     public void TickPhysics() => Move();
 
     public void SetDirection(Vector2 _dir) => targetDirection = _dir.normalized;
+    public void Stop()
+    {
+        velocity = targetDirection = body.linearVelocity = Vector2.zero;
+    }
+    public void Teleport(Vector2 _newPosition)
+    {
+        Stop();
+        body.MovePosition(_newPosition);
+    }
 
     private void Move()
     {

@@ -1,50 +1,26 @@
-using System.Collections;
 using UnityEngine;
 
 public class Teletransporte: MonoBehaviour
 {
-    public Transform destino;
-    public float tiempoEspera = 1f;
-    public float tiempoBloqueo = 1f;
+    [SerializeField] private Transform targetPosTransform;
+    [SerializeField] private Vector2 offset;
+
+    private Player currentPlayer;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
-        {
-            PlayerTeleport pt = other.GetComponent<PlayerTeleport>();
+        if (!other.CompareTag("Player")) return;
 
-            if (pt != null)
-            {
-                if (pt.puedeTeletransportarse == true)
-                {
-                    StartCoroutine(Teleport(other, pt));
-                }
-            }
-        }
+        if(currentPlayer == null) currentPlayer = other.GetComponent<Player>();
+        if(currentPlayer == null) return;
+
+        currentPlayer.Teleport(targetPosTransform.position + (Vector3)offset);
     }
 
-    IEnumerator Teleport(Collider2D player, PlayerTeleport pt)
+    private void OnDrawGizmos()
     {
-        pt.puedeTeletransportarse = false;
-
-        FadeController fade = FindFirstObjectByType<FadeController>();
-
-        if (fade != null)
-        {
-            fade.FadeNegro();
-        }
-
-        yield return new WaitForSeconds(tiempoEspera);
-
-        player.transform.position = destino.position;
-
-        if (fade != null)
-        {
-            fade.QuitarNegro();
-        }
-
-        yield return new WaitForSeconds(tiempoBloqueo);
-
-        pt.puedeTeletransportarse = true;
+        if(targetPosTransform == null) return;
+        Gizmos.color = Color.red;
+        Gizmos.DrawSphere(targetPosTransform.position + (Vector3)offset, .2f);   
     }
 }
