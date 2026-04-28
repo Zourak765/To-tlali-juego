@@ -1,97 +1,109 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
+using UnityEngine.Events;
 
 public class EstatuaInteraccion : MonoBehaviour
 {
-    public string objetoRequerido = "Instrumento1";
-    public GameManagerEstatuas controlador;
+    [SerializeField] private GameManagerEstatuas.listaestatua statueType;
+    [SerializeField] private string requiredInstrument = "Instrumento1";
+    [SerializeField] private AudioClip statueTrack;
 
-    public GameManagerEstatuas.listaestatua tipoEstatua;
+    [Header("Notification Text")]
+    [SerializeField] private Text notificationText;
+    [SerializeField] private NotificationMessages notificationMessages;
+    [Space(3)]
+    [SerializeField] private ExternalEvents events;
 
-    public GameObject mensajeError;
-    public Transform puntoDestino;
-    public GameObject jugador;
-    public AudioClip musicaEstatua;
-    public AudioSource musicaMundo;
+    private Coroutine miniGameValidationCoroutine;
+    private Coroutine showTextCoroutine;
 
-    public MiniJuegoManager miniJuegoManager;
-    public Sprite estatuaActivada;
-    public GameObject textoPerdiste;
-
-    public SpriteRenderer estatuaRenderer;
-
-    private bool juegoIniciado = false;
-    private bool yaActivada = false;
-
+    private GameManagerEstatuas globalGameManager;
+    private MiniJuegoManager miniGameManager;
     private Player currentPlayer;
 
-    void Start()
-    {
-        textoPerdiste.SetActive(false);
-    }
+    private bool isMinigameRunning;
 
-    void Update()
+
+    private void Awake()
     {
-        if (!yaActivada && controlador.GetEstatua(tipoEstatua))
-        {
-            ActivarEstatuaVisual();
-        }
+        globalGameManager = FindFirstObjectByType<GameManagerEstatuas>();
+        miniGameManager = FindFirstObjectByType<MiniJuegoManager>();
+        currentPlayer = FindFirstObjectByType<Player>();
     }
 
     public void ActivateStatue()
     {
-        if (juegoIniciado) return;
+        if(isMinigameRunning) return;
 
-        if(currentPlayer == null) currentPlayer = FindFirstObjectByType<Player>();
-
-        if (InventMenu.instancia.TieneObjetoUnico(objetoRequerido)) StartCoroutine(SecuenciaCompleta());
-        else StartCoroutine(MostrarMensaje());
-    }
-
-    IEnumerator SecuenciaCompleta()
-    {
-        currentPlayer.Deactivate("Minijuego");
-        juegoIniciado = true;
-
-        if (musicaMundo != null) musicaMundo.Pause();
-
-        jugador.transform.position = puntoDestino.position;
-        yield return new WaitForSeconds(0.5f);
-
-        miniJuegoManager.IniciarMinijuego(musicaEstatua, miniJuegoManager.canvasMinijuego);
-
-        while (!miniJuegoManager.juegoTerminado) yield return null;
-        bool resultado = miniJuegoManager.gano;
-
-        controlador.SetEstatua(tipoEstatua, resultado);
-
-        if (!resultado)
+        if (!InventMenu.instancia.TieneObjetoUnico(requiredInstrument))
         {
-            textoPerdiste.SetActive(true);
-            yield return new WaitForSeconds(2f);
-            textoPerdiste.SetActive(false);
+            ShowText(notificationMessages.NotItemMesssage, 2f);
+            return;
         }
 
-        miniJuegoManager.canvasMinijuego.SetActive(false);
-
-        if (musicaMundo != null) musicaMundo.UnPause();
-
-        currentPlayer.Activate("Minijuego");
-        juegoIniciado = false;
+        if(miniGameValidationCoroutine != null) StopCoroutine(miniGameValidationCoroutine);
+        miniGameValidationCoroutine = StartCoroutine(ValidateMinigame());
     }
 
-    void ActivarEstatuaVisual()
+    private IEnumerator ValidateMinigame()
     {
-        yaActivada = true;
+        currentPlayer.Deactivate("MusicMinigame");
+        isMinigameRunning = true;
+        events.OnGameStarted?.Invoke();
 
-        if (estatuaRenderer != null)
-            estatuaRenderer.sprite = estatuaActivada;
+        //miniGameManager.Start(statueTrack);
+        while(!miniGameManager.juegoTerminado) yield return null;
+        bool win = miniGameManager.gano;
+
+        globalGameManager.SetEstatua(statueType, win);
+
+        if(win)
+        {
+            events.OnWin?.Invoke();
+            ShowText(notificationMessages.WinMesssage, 2f);
+        }
+        else
+        {
+            events.OnLoose?.Invoke();
+            ShowText(notificationMessages.LooseMesssage, 2f);
+        }
+        //miniGameManager.End();
+
+        events.OnGameEnded?.Invoke();
+        isMinigameRunning = false;
+        currentPlayer.Activate("MusicMinigame");
     }
 
-    IEnumerator MostrarMensaje()
+
+    private void ShowText(string _text, float _duration)
     {
-        mensajeError.SetActive(true);
-        yield return new WaitForSeconds(2f);
-        mensajeError.SetActive(false);
+        if(showTextCoroutine != null) StopCoroutine(showTextCoroutine);
+        showTextCoroutine = StartCoroutine(ShowTextRoutine(_text, _duration));
+        
+        IEnumerator ShowTextRoutine(string _text, float _duration)
+        {
+            notificationText.text = _text;
+            notificationText.gameObject.SetActive(true);
+            yield return new WaitForSeconds(_duration);
+            notificationText.gameObject.SetActive(false);
+        }
+    }
+
+    [System.Serializable]
+    private struct ExternalEvents
+    {
+        public UnityEvent OnGameStarted;
+        public UnityEvent OnWin;
+        public UnityEvent OnLoose;
+        public UnityEvent OnGameEnded;
+    }
+
+    [System.Serializable]
+    private struct NotificationMessages
+    {
+        public string WinMesssage;
+        public string LooseMesssage;
+        public string NotItemMesssage;
     }
 }

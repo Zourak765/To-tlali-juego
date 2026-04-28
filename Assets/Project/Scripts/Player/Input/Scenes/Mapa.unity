@@ -28704,18 +28704,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17036a0ec607f5040bc7c8fe67f2a099, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EstatuaInteraccion
-  objetoRequerido: Instrumento
-  controlador: {fileID: 1818331946}
-  tipoEstatua: 2
-  mensajeError: {fileID: 1101353078}
-  puntoDestino: {fileID: 1462203949}
-  jugador: {fileID: 0}
-  musicaEstatua: {fileID: 8300000, guid: 32390d2bdde412649be4104be1cc584e, type: 3}
-  musicaMundo: {fileID: 519420035}
-  miniJuegoManager: {fileID: 291862973}
-  estatuaActivada: {fileID: 21300000, guid: 1a17afc7a5e2cbb429abc4e12b7de6d3, type: 3}
-  textoPerdiste: {fileID: 1108872370}
-  estatuaRenderer: {fileID: 1516653082}
+  statueType: 0
+  requiredInstrument: Instrumento1
+  notificationText: {fileID: 0}
+  notificationMessages:
+    WinMesssage: 
+    LooseMesssage: 
+    NotItemMesssage: 
+  events:
+    OnGameStarted:
+      m_PersistentCalls:
+        m_Calls: []
+    OnGameEnded:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!61 &437417548
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -64577,18 +64579,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17036a0ec607f5040bc7c8fe67f2a099, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EstatuaInteraccion
-  objetoRequerido: Instrumento
-  controlador: {fileID: 1818331946}
-  tipoEstatua: 3
-  mensajeError: {fileID: 603215348}
-  puntoDestino: {fileID: 1454468571}
-  jugador: {fileID: 0}
-  musicaEstatua: {fileID: 8300000, guid: 679ea4d652da8524aa7c96ec988e48a9, type: 3}
-  musicaMundo: {fileID: 519420035}
-  miniJuegoManager: {fileID: 366504490}
-  estatuaActivada: {fileID: 21300000, guid: c5b9df3833f2e3d4380e23d4a9830683, type: 3}
-  textoPerdiste: {fileID: 850218423}
-  estatuaRenderer: {fileID: 279221660}
+  statueType: 0
+  requiredInstrument: Instrumento1
+  notificationText: {fileID: 0}
+  notificationMessages:
+    WinMesssage: 
+    LooseMesssage: 
+    NotItemMesssage: 
+  events:
+    OnGameStarted:
+      m_PersistentCalls:
+        m_Calls: []
+    OnGameEnded:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!61 &967489680
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -67420,18 +67424,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17036a0ec607f5040bc7c8fe67f2a099, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EstatuaInteraccion
-  objetoRequerido: Instrumento
-  controlador: {fileID: 1818331946}
-  tipoEstatua: 1
-  mensajeError: {fileID: 2059994098}
-  puntoDestino: {fileID: 1267837541}
-  jugador: {fileID: 0}
-  musicaEstatua: {fileID: 8300000, guid: 645cf940c978cf34ebee614f44f6c6d5, type: 3}
-  musicaMundo: {fileID: 519420035}
-  miniJuegoManager: {fileID: 926290948}
-  estatuaActivada: {fileID: 21300000, guid: d4ec951a49ae5c74ba979731ecf2b589, type: 3}
-  textoPerdiste: {fileID: 1855975035}
-  estatuaRenderer: {fileID: 993531997}
+  statueType: 0
+  requiredInstrument: Instrumento1
+  notificationText: {fileID: 0}
+  notificationMessages:
+    WinMesssage: 
+    LooseMesssage: 
+    NotItemMesssage: 
+  events:
+    OnGameStarted:
+      m_PersistentCalls:
+        m_Calls: []
+    OnGameEnded:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!212 &1016245711
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -134249,18 +134255,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17036a0ec607f5040bc7c8fe67f2a099, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EstatuaInteraccion
-  objetoRequerido: Instrumento
-  controlador: {fileID: 1818331946}
-  tipoEstatua: 0
-  mensajeError: {fileID: 2059994098}
-  puntoDestino: {fileID: 891684320}
-  jugador: {fileID: 2068196055}
-  musicaEstatua: {fileID: 8300000, guid: 0582d046b3dc92a49b97b3cdf9e9b223, type: 3}
-  musicaMundo: {fileID: 519420035}
-  miniJuegoManager: {fileID: 591474683}
-  estatuaActivada: {fileID: 21300000, guid: 5578ebee3f134f149963b8887247ffbf, type: 3}
-  textoPerdiste: {fileID: 1855975035}
-  estatuaRenderer: {fileID: 724501107}
+  statueType: 0
+  requiredInstrument: Instrumento1
+  notificationText: {fileID: 0}
+  notificationMessages:
+    WinMesssage: Ganaste!
+    LooseMesssage: Perdiste!
+    NotItemMesssage: No tienes el item indicado.
+  events:
+    OnGameStarted:
+      m_PersistentCalls:
+        m_Calls: []
+    OnGameEnded:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!114 &2046960489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -135775,17 +135783,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
---- !u!1 &2068196055 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 572872473544513580, guid: 8185ecc619ae93f499e15d30400e1fb3, type: 3}
-  m_PrefabInstance: {fileID: 3969598185509747715}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &2068196061 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2000986092877231893, guid: 8185ecc619ae93f499e15d30400e1fb3, type: 3}
   m_PrefabInstance: {fileID: 3969598185509747715}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2068196055}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd9786d3e5686f44485e4ee6ea884e5c, type: 3}
@@ -135801,7 +135804,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1915212252258478640, guid: 8185ecc619ae93f499e15d30400e1fb3, type: 3}
   m_PrefabInstance: {fileID: 3969598185509747715}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2068196055}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9475b44cf3ee5d845a8fbc369830ab53, type: 3}
