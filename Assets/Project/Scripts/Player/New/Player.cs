@@ -35,8 +35,12 @@ public class Player : MonoBehaviour
 
     private void TryInteract()
     {
-        if(interaction == null) return;
+        if (interaction == null) return;
 
-        if(input.Interaction.WasPressedThisFrame()) interaction.TryInteract();
+        if (input.Interaction.WasPressedThisFrame()
+            || Input.GetMouseButtonDown(0))
+        {
+            interaction.TryInteract();
+        }
     }
 }

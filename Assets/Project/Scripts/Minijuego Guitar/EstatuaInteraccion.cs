@@ -39,7 +39,7 @@ public class EstatuaInteraccion : MonoBehaviour
 
     public void ActivateStatue()
     {
-        if(juegoIniciado) return;
+        if (juegoIniciado) return;
 
         if (InventMenu.instancia.TieneObjetoUnico(objetoRequerido)) StartCoroutine(SecuenciaCompleta());
         else StartCoroutine(MostrarMensaje());
@@ -77,6 +77,14 @@ public class EstatuaInteraccion : MonoBehaviour
         if (musicaMundo != null)
             musicaMundo.UnPause();
 
+        Rigidbody2D rb = jugador.GetComponent<Rigidbody2D>();
+        if (rb != null)
+            rb.linearVelocity = Vector2.zero;
+
+        PlayerMovement mov = jugador.GetComponent<PlayerMovement>();
+        if (mov != null)
+            mov.SetDirection(Vector2.zero);
+
         movimientoJugador.enabled = true;
         juegoIniciado = false;
     }
@@ -95,14 +103,4 @@ public class EstatuaInteraccion : MonoBehaviour
         yield return new WaitForSeconds(2f);
         mensajeError.SetActive(false);
     }
-
-    // private void OnTriggerEnter2D(Collider2D other)
-    // {
-    //     if (other.CompareTag("Player")) enZona = true;
-    // }
-
-    // private void OnTriggerExit2D(Collider2D other)
-    // {
-    //     if (other.CompareTag("Player")) enZona = false;
-    // }
 }
