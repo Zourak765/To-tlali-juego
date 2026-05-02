@@ -9,10 +9,8 @@ public class NotaElim : MonoBehaviour
         transform.Translate(Vector2.down * velocidad * Time.deltaTime);
     }
 
-    // 🔥 ESTE ES EL QUE TE FALTABA
     public void Acierto()
     {
-        Debug.Log("✔ Nota acertada");
 
         if (MiniJuegoManager.Instance != null)
             MiniJuegoManager.Instance.Correcto();

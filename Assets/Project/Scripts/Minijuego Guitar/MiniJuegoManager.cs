@@ -30,20 +30,15 @@ public class MiniJuegoManager : MonoBehaviour
 
         Instance = this;
 
-        Debug.Log("🎮 MiniJuegoManager listo");
     }
 
-    // 🔥 ESTE ES EL MÉTODO QUE DEBES USAR EN TODO EL PROYECTO
     public void IniciarMinijuego(AudioClip clip, GameObject canvas)
     {
-        Debug.Log("🚀 IniciarMinijuego llamado");
 
         canvasMinijuego = canvas;
 
         if (canvasMinijuego != null)
             canvasMinijuego.SetActive(true);
-        else
-            Debug.LogError("❌ Canvas no asignado");
 
         progreso = 0f;
         juegoTerminado = false;
@@ -57,10 +52,6 @@ public class MiniJuegoManager : MonoBehaviour
             musica.Stop();
             musica.clip = clip;
             musica.Play();
-        }
-        else
-        {
-            Debug.LogError("❌ AudioSource no asignado");
         }
     }
 
@@ -79,14 +70,12 @@ public class MiniJuegoManager : MonoBehaviour
     {
         progreso += 10f;
         progreso = Mathf.Clamp(progreso, 0, maxProgreso);
-        Debug.Log("✔ Correcto → " + progreso);
     }
 
     public void Incorrecto()
     {
         progreso -= 15f;
         progreso = Mathf.Clamp(progreso, 0, maxProgreso);
-        Debug.Log("❌ Incorrecto → " + progreso);
     }
 
     public void Terminar(bool win)
@@ -100,6 +89,5 @@ public class MiniJuegoManager : MonoBehaviour
         if (canvasMinijuego != null)
             canvasMinijuego.SetActive(false);
 
-        Debug.Log("🏁 Fin del minijuego");
     }
 }
