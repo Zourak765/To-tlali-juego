@@ -1,15 +1,17 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] private InputController input;
     [SerializeField] private PlayerMovement movement;
     [SerializeField] private PlayerInteraction interaction;
     [SerializeField] private PlayerAnimations animations;
 
     private bool isActive = true;
     private List<string> deactivationCalls = new List<string>();
+
+    private Vector2 inputDirection;
 
     private void Awake()
     {
@@ -20,7 +22,6 @@ public class Player : MonoBehaviour
         interaction?.DetectInteractables();
 
         TryMove();
-        TryInteract();
     }
     private void FixedUpdate()
     {
@@ -49,21 +50,23 @@ public class Player : MonoBehaviour
         Activate("");
     }
 
+    public void InputDirection(InputAction.CallbackContext ctx) => inputDirection = ctx.ReadValue<Vector2>();
+    
+    public void InputInteraction(InputAction.CallbackContext ctx)
+    {
+       if(ctx.performed) TryInteract(); 
+    }
+
+
     private void TryMove()
     {
         if(!isActive || movement == null) return;
-
-        Vector2 inputDirection = input.MovementDir;
         movement.SetDirection(inputDirection);
         animations.SetVelocity(movement.Velocity);
     }
     private void TryInteract()
     {
         if (!isActive || interaction == null) return;
-
-        if (input.Interaction.WasPressedThisFrame())
-        {
-            interaction.TryInteract();
-        }
+        interaction.TryInteract();
     }
 }

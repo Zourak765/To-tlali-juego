@@ -53,7 +53,7 @@ public class EstatuaInteraccion : MonoBehaviour
         events.OnGameStarted?.Invoke();
 
 
-        miniGameManager.transform.position = transform.position;
+        miniGameManager.transform.position = currentPlayer.transform.position;
         miniGameManager.StartMinigame(statueTrack);
         yield return null;
 
