@@ -19,7 +19,7 @@ public class EstatuaInteraccion : MonoBehaviour
     private Coroutine showTextCoroutine;
 
     private GameManagerEstatuas globalGameManager;
-    private MiniJuegoManager miniGameManager;
+    private MusicMinigame miniGameManager;
     private Player currentPlayer;
 
     private bool isMinigameRunning;
@@ -28,7 +28,7 @@ public class EstatuaInteraccion : MonoBehaviour
     private void Awake()
     {
         globalGameManager = FindFirstObjectByType<GameManagerEstatuas>();
-        miniGameManager = FindFirstObjectByType<MiniJuegoManager>();
+        miniGameManager = FindFirstObjectByType<MusicMinigame>();
         currentPlayer = FindFirstObjectByType<Player>();
     }
 
@@ -52,10 +52,14 @@ public class EstatuaInteraccion : MonoBehaviour
         isMinigameRunning = true;
         events.OnGameStarted?.Invoke();
 
-        //miniGameManager.Start(statueTrack);
-        while(!miniGameManager.juegoTerminado) yield return null;
-        bool win = miniGameManager.gano;
 
+        miniGameManager.transform.position = transform.position;
+        miniGameManager.StartMinigame(statueTrack);
+        yield return null;
+
+        while(miniGameManager.IsPlaying) yield return null;
+        
+        bool win = miniGameManager.HasWon;
         globalGameManager.SetEstatua(statueType, win);
 
         if(win)
@@ -68,7 +72,6 @@ public class EstatuaInteraccion : MonoBehaviour
             events.OnLoose?.Invoke();
             ShowText(notificationMessages.LooseMesssage, 2f);
         }
-        //miniGameManager.End();
 
         events.OnGameEnded?.Invoke();
         isMinigameRunning = false;

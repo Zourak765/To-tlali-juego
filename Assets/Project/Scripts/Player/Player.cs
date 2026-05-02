@@ -61,8 +61,7 @@ public class Player : MonoBehaviour
     {
         if (!isActive || interaction == null) return;
 
-        if (input.Interaction.WasPressedThisFrame()
-            || Input.GetMouseButtonDown(0))
+        if (input.Interaction.WasPressedThisFrame())
         {
             interaction.TryInteract();
         }
