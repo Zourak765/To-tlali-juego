@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/Project/Scripts/Player/Input/Scenes/Menu.unity
     guid: 13bcee828f1e9b3458fd502247bef236
   - enabled: 1
+    path: Assets/Project/CarpetaLeo/Introanim.unity
+    guid: 1633d469051f9f348914ec740e2c696f
+  - enabled: 1
+    path: Assets/Project/CarpetaLeo/PantallaCarga.unity
+    guid: 7c2e2aa3edd5d7a439a42e98eb528f75
+  - enabled: 1
     path: Assets/Project/Scripts/Player/Input/Scenes/Mapa.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
