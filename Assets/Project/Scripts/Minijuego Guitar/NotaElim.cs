@@ -1,26 +1,22 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class NotaElim : MonoBehaviour
 {
-    public float velocidad = 6f;
-    public MiniJuegoManager miniJuegoManager; 
+    public float velocidad = 5f;
 
     void Update()
     {
         transform.Translate(Vector2.down * velocidad * Time.deltaTime);
-
-        if (transform.position.y < -5f) 
-        {
-            if (miniJuegoManager != null)
-                miniJuegoManager.NotaIncorrecta();
-            Destroy(gameObject);
-        }
     }
 
+    // 🔥 ESTE ES EL QUE TE FALTABA
     public void Acierto()
     {
-        if (miniJuegoManager != null)
-            miniJuegoManager.NotaCorrecta();
+        Debug.Log("✔ Nota acertada");
+
+        if (MiniJuegoManager.Instance != null)
+            MiniJuegoManager.Instance.Correcto();
+
         Destroy(gameObject);
     }
 }

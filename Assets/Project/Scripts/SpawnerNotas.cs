@@ -8,7 +8,7 @@ public class SpawnerNotas : MonoBehaviour
     public Transform lineaIzquierda;
     public Transform lineaDerecha;
 
-    public MiniJuegoManager miniJuegoManager; // referencia local al manager de esta estatua
+    public MiniJuegoManager miniJuegoManager;
 
     float[] espectro = new float[64];
     public float sensibilidad = 0.02f;
