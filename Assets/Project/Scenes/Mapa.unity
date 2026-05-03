@@ -67710,7 +67710,8 @@ GameObject:
   - component: {fileID: 967489681}
   - component: {fileID: 967489680}
   - component: {fileID: 967489679}
-  m_Layer: 0
+  - component: {fileID: 967489682}
+  m_Layer: 3
   m_Name: Guardian Tzin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67744,21 +67745,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17036a0ec607f5040bc7c8fe67f2a099, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EstatuaInteraccion
-  statueType: 0
-  requiredInstrument: Instrumento1
-  statueTrack: {fileID: 0}
-  notificationText: {fileID: 0}
+  statueType: 3
+  requiredInstrument: Instrumento4
+  statueTrack: {fileID: 8300000, guid: 679ea4d652da8524aa7c96ec988e48a9, type: 3}
+  notificationText: {fileID: 1288890809}
   notificationMessages:
-    WinMesssage: 
-    LooseMesssage: 
-    NotItemMesssage: 
+    WinMesssage: Ganaste!
+    LooseMesssage: Perdiste!
+    NotItemMesssage: No tienes el item indicado!
   events:
     OnGameStarted:
       m_PersistentCalls:
         m_Calls: []
     OnWin:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 279221660}
+          m_TargetAssemblyTypeName: UnityEngine.SpriteRenderer, UnityEngine
+          m_MethodName: set_sprite
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 21300000, guid: c5b9df3833f2e3d4380e23d4a9830683, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 967489681}
+          m_TargetAssemblyTypeName: UnityEngine.SpriteRenderer, UnityEngine
+          m_MethodName: set_sprite
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 21300000, guid: c5b9df3833f2e3d4380e23d4a9830683, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     OnLoose:
       m_PersistentCalls:
         m_Calls: []
@@ -67869,6 +67894,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!114 &967489682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967489677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfd33dea5dd9554478c5ad3f8f3e904e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SimpleInteraction
+  onInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 967489679}
+        m_TargetAssemblyTypeName: EstatuaInteraccion, Assembly-CSharp
+        m_MethodName: ActivateStatue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &968199670
 GameObject:
   m_ObjectHideFlags: 0
@@ -70744,8 +70796,9 @@ GameObject:
   - component: {fileID: 1016245712}
   - component: {fileID: 1016245711}
   - component: {fileID: 1016245710}
+  - component: {fileID: 1016245713}
   - component: {fileID: 1016245709}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Guardian Enterrado
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70810,21 +70863,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17036a0ec607f5040bc7c8fe67f2a099, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EstatuaInteraccion
-  statueType: 0
-  requiredInstrument: Instrumento1
-  statueTrack: {fileID: 0}
-  notificationText: {fileID: 0}
+  statueType: 2
+  requiredInstrument: Instrumento3
+  statueTrack: {fileID: 8300000, guid: 645cf940c978cf34ebee614f44f6c6d5, type: 3}
+  notificationText: {fileID: 1288890809}
   notificationMessages:
-    WinMesssage: 
-    LooseMesssage: 
-    NotItemMesssage: 
+    WinMesssage: Ganaste!
+    LooseMesssage: Perdiste!
+    NotItemMesssage: No tienes el item indicado!
   events:
     OnGameStarted:
       m_PersistentCalls:
         m_Calls: []
     OnWin:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 993531997}
+          m_TargetAssemblyTypeName: UnityEngine.SpriteRenderer, UnityEngine
+          m_MethodName: set_sprite
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 21300000, guid: d4ec951a49ae5c74ba979731ecf2b589, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1016245711}
+          m_TargetAssemblyTypeName: UnityEngine.SpriteRenderer, UnityEngine
+          m_MethodName: set_sprite
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 21300000, guid: d4ec951a49ae5c74ba979731ecf2b589, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     OnLoose:
       m_PersistentCalls:
         m_Calls: []
@@ -70904,6 +70981,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1143062587}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1016245713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1016245708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfd33dea5dd9554478c5ad3f8f3e904e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SimpleInteraction
+  onInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1016245710}
+        m_TargetAssemblyTypeName: EstatuaInteraccion, Assembly-CSharp
+        m_MethodName: ActivateStatue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1018586724
 GameObject:
   m_ObjectHideFlags: 0
@@ -79717,8 +79821,8 @@ Transform:
   - {fileID: 175701227}
   - {fileID: 2046960485}
   - {fileID: 437417546}
-  - {fileID: 967489678}
   - {fileID: 1016245712}
+  - {fileID: 967489678}
   - {fileID: 1758883912}
   - {fileID: 101470524}
   - {fileID: 1847961760}
