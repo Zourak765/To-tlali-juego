@@ -2,12 +2,14 @@
 
 public class ZonaDestroy : MonoBehaviour
 {
-    void OnTriggerEnter2D(Collider2D other)
+    public MiniJuegoManager miniJuegoManager;
+
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (!other.CompareTag("Nota")) return;
 
-        if (MiniJuegoManager.Instance != null)
-            MiniJuegoManager.Instance.Incorrecto();
+        if (miniJuegoManager != null)
+            miniJuegoManager.NotaIncorrecta();
 
         Destroy(other.gameObject);
     }

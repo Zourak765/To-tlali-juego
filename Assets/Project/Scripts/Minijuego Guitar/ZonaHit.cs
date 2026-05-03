@@ -1,40 +1,44 @@
 ﻿using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class ZonaHit : MonoBehaviour
 {
+    public string tagNota;
+
     private GameObject notaEnZona;
 
-    void Update()
-    {
-        if (Keyboard.current == null) return;
+    public MiniJuegoManager manager;
 
-        if (Keyboard.current.aKey.wasPressedThisFrame ||
-            Keyboard.current.dKey.wasPressedThisFrame)
-        {
-            Presionar();
-        }
+    void OnMouseDown()
+    {
+        if (manager != null && manager.juegoTerminado) return;
+
+        Presionar();
     }
 
-    void Presionar()
+    public void Presionar()
     {
         if (notaEnZona != null)
         {
+            Debug.Log("ACIERTO");
 
-            notaEnZona.GetComponent<NotaElim>().Acierto();
+            if (manager != null)
+                manager.NotaCorrecta();
+
+            Destroy(notaEnZona);
             notaEnZona = null;
         }
         else
         {
+            Debug.Log("FALLO");
 
-            if (MiniJuegoManager.Instance != null)
-                MiniJuegoManager.Instance.Incorrecto();
+            if (manager != null)
+                manager.NotaIncorrecta();
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Nota"))
+        if (other.CompareTag(tagNota))
         {
             notaEnZona = other.gameObject;
         }
@@ -42,9 +46,10 @@ public class ZonaHit : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.gameObject == notaEnZona)
+        if (other.CompareTag(tagNota))
         {
-            notaEnZona = null;
+            if (other.gameObject == notaEnZona)
+                notaEnZona = null;
         }
     }
 }
