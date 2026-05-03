@@ -6,11 +6,14 @@ using UnityEngine.Events;
 public class MusicMinigame : MonoBehaviour
 {
     [SerializeField, Min(0f)] private float delay;
+    [SerializeField] private float noteSensi;
     [SerializeField] private int maxNotesInTracks = 10;
     [SerializeField] private int maxSequencedNotes = 3;
     [SerializeField, Min(0f)] private float noteSpeed;
     [SerializeField, Min(0f)] private float minSpawnTime;
     [SerializeField, Min(1)] private int maxProgress = 10;
+    [SerializeField,  Min(0f)] private float buttonValidationRadius;
+    [SerializeField] private LayerMask flowerMask;
     [Space(4)]
     [SerializeField] private MinigameReferences refs;
     [SerializeField] private ExternalEvents events;
@@ -84,7 +87,7 @@ public class MusicMinigame : MonoBehaviour
         while(IsTrackPlaying()) // Minigame execution
         {    
             spawnElapsed += Time.deltaTime;
-            if(spawnElapsed >= minSpawnTime && currentNotes.Count < maxNotesInTracks)
+            if(spawnElapsed >= minSpawnTime && currentNotes.Count < maxNotesInTracks) // && clipSamples[30] > noteSensi) check this
             {
                 spawnElapsed = 0f;
                 int currentTrackIndex = Random.Range(0,2);
@@ -114,6 +117,18 @@ public class MusicMinigame : MonoBehaviour
         Destroy(_note.gameObject);
         currentNotes.Remove(_note); 
     }
+
+    public void ValidateBlueButton() => CheckNoteInCircle(refs.BlueButton.position);
+    public void ValidateOrangeButton() => CheckNoteInCircle(refs.OrangeButton.position);
+
+    private void CheckNoteInCircle(Vector2 _position)
+    {
+        Collider2D detectedCol = Physics2D.OverlapCircle(_position, buttonValidationRadius, flowerMask);
+        if(detectedCol == null || !detectedCol.TryGetComponent(out MusicMinigame_Note note)) return;
+        note.Count(); 
+    }
+
+
     private void SpawnNote(int _index)
     {
         MusicMinigame_Note targetNote; 
@@ -157,15 +172,33 @@ public class MusicMinigame : MonoBehaviour
         Clear();
     }
 
-#region Refs
+
+    private void OnDrawGizmosSelected()
+    {
+        if(refs.BlueButton != null)
+        {
+            Gizmos.color = Color.blue;
+            Gizmos.DrawWireSphere(refs.BlueButton.position, buttonValidationRadius);   
+        }
+        if(refs.OrangeButton != null)
+        {
+            Gizmos.color = Color.orange;
+            Gizmos.DrawWireSphere(refs.OrangeButton.position, buttonValidationRadius);   
+        }
+    }
+
+
+    #region Refs
     [System.Serializable]
     private class MinigameReferences
     {
         public AudioSource TargetSource;
         public Transform TrackBlueInit;
-        public Transform TrackOrangeInit;
         public Transform TrackBlueEnd;
+        public Transform BlueButton;
+        public Transform TrackOrangeInit;
         public Transform TrackOrangeEnd;
+        public Transform OrangeButton;
         public MusicMinigame_Note BlueNotePrefab;
         public MusicMinigame_Note OrangeNotePrefab;
     }

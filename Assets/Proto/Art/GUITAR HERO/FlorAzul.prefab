@@ -101,7 +101,7 @@ GameObject:
   - component: {fileID: 69186109036287537}
   - component: {fileID: 465362801335040089}
   - component: {fileID: 4609716703134582651}
-  m_Layer: 2
+  m_Layer: 7
   m_Name: FlorAzul
   m_TagString: Untagged
   m_Icon: {fileID: 0}

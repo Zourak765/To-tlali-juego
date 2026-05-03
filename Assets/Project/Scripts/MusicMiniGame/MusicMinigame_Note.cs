@@ -21,7 +21,11 @@ public class MusicMinigame_Note : MonoBehaviour
         transform.position = Vector3.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
         CheckPosition();
     }
-    public void Count() => manager.AddPoint();
+    public void Count()
+    {
+        manager.AddPoint();
+        manager.RemoveNote(this);
+    }
 
     private void CheckPosition()
     {
