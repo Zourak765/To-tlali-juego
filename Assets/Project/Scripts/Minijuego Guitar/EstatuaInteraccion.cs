@@ -6,7 +6,7 @@ using UnityEngine.Events;
 public class EstatuaInteraccion : MonoBehaviour
 {
     [SerializeField] private GameManagerEstatuas.listaestatua statueType;
-    [SerializeField] private string requiredInstrument = "Instrumento1";
+    [SerializeField] private Inventory.InventoryItem requiredItem;
     [SerializeField] private AudioClip statueTrack;
 
     [Header("Notification Text")]
@@ -21,6 +21,7 @@ public class EstatuaInteraccion : MonoBehaviour
     private GameManagerEstatuas globalGameManager;
     private MusicMinigame miniGameManager;
     private Player currentPlayer;
+    private Inventory currentInventory;
 
     private bool isMinigameRunning;
 
@@ -30,13 +31,14 @@ public class EstatuaInteraccion : MonoBehaviour
         globalGameManager = FindFirstObjectByType<GameManagerEstatuas>();
         miniGameManager = FindFirstObjectByType<MusicMinigame>();
         currentPlayer = FindFirstObjectByType<Player>();
+        currentInventory = FindFirstObjectByType<Inventory>();
     }
 
     public void ActivateStatue()
     {
         if(isMinigameRunning) return;
 
-        if (!InventMenu.instancia.TieneObjetoUnico(requiredInstrument))
+        if (!currentInventory.GetItemState(requiredItem))
         {
             ShowText(notificationMessages.NotItemMesssage, 2f);
             return;

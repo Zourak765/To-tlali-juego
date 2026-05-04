@@ -106,8 +106,6 @@ GameObject:
   - component: {fileID: 4650188717669880859}
   - component: {fileID: 1915212252258478640}
   - component: {fileID: 7748923991835339510}
-  - component: {fileID: 2300470878334014964}
-  - component: {fileID: 7584002905851761405}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -222,9 +220,9 @@ MonoBehaviour:
   m_ActionEvents:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: InputController, Assembly-CSharp
-        m_MethodName: CalculateMovement
+      - m_Target: {fileID: 3599114660491654841}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: InputDirection
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -237,7 +235,19 @@ MonoBehaviour:
     m_ActionId: f258573b-1876-4685-a96b-c3d6eb056229
     m_ActionName: 'Player/Movement[/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]'
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3599114660491654841}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: InputInteraction
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 87d35e73-6955-4430-a9cf-649947b867ae
     m_ActionName: 'Player/Interaction[/Keyboard/e]'
   - m_PersistentCalls:
@@ -307,7 +317,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5248433f9129a84bb8cf696d3eaae43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
-  input: {fileID: 0}
   movement: {fileID: 4650188717669880859}
   interaction: {fileID: 1915212252258478640}
   animations: {fileID: 7748923991835339510}
@@ -355,37 +364,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerAnimations
   anim: {fileID: 8176452996579298422}
   flipable: {fileID: 8007231611584218888}
---- !u!114 &2300470878334014964
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 572872473544513580}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de32e456a3d9bed4da035a5460f01148, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ZonaInteraccion
-  panelInventario: {fileID: 0}
-  movimientoJugador: {fileID: 0}
---- !u!114 &7584002905851761405
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 572872473544513580}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48fee3469434c5e4dbbfb1aa8e6e95cc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InventMenu
-  objetosUnicos:
-  - Instrumento1
-  - Instrumento2
-  - Instrumento3
-  - Instrumento4
 --- !u!1 &7751084469148173660
 GameObject:
   m_ObjectHideFlags: 0
