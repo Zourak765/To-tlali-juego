@@ -10308,7 +10308,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &172963626
 Transform:
   m_ObjectHideFlags: 0
@@ -64546,7 +64546,7 @@ Transform:
   m_GameObject: {fileID: 967489677}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 72.76811, y: 197.64, z: 0}
+  m_LocalPosition: {x: 72.607086, y: 196.31688, z: 0}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -64565,7 +64565,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EstatuaInteraccion
   statueType: 3
-  requiredItem: 3
+  requiredItem: 2
   statueTrack: {fileID: 8300000, guid: 679ea4d652da8524aa7c96ec988e48a9, type: 3}
   notificationText: {fileID: 1288890809}
   notificationMessages:
@@ -64643,10 +64643,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.542572, y: -8.266315}
+  m_Offset: {x: -0.542572, y: -3.2663155}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.49733704, y: 0.051847328}
     oldSize: {x: 9.08, y: 13.49}
     newSize: {x: 9.4, y: 12.89}
     adaptiveTilingThreshold: 0.5
@@ -64712,7 +64712,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 1
+  m_SpriteSortPoint: 0
 --- !u!114 &967489682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67630,7 +67630,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EstatuaInteraccion
   statueType: 2
-  requiredItem: 2
+  requiredItem: 3
   statueTrack: {fileID: 8300000, guid: 645cf940c978cf34ebee614f44f6c6d5, type: 3}
   notificationText: {fileID: 1288890809}
   notificationMessages:
@@ -67741,7 +67741,7 @@ Transform:
   m_GameObject: {fileID: 1016245708}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -91.82939, y: -48.403427, z: 0}
+  m_LocalPosition: {x: -91.392914, y: -47.68312, z: 0}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -136015,7 +136015,7 @@ Transform:
   m_GameObject: {fileID: 2046960484}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 69.22357, y: -9.283121, z: 0}
+  m_LocalPosition: {x: 68.607086, y: -8.683121, z: 0}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_ConstrainProportionsScale: 1
   m_Children: []
