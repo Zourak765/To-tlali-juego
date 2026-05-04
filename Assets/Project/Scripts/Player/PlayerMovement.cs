@@ -23,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
     public void Teleport(Vector2 _newPosition)
     {
         Stop();
-        body.MovePosition(_newPosition);
+        body.position = _newPosition;
     }
 
     private void Move()
