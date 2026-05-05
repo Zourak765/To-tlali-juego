@@ -11,6 +11,8 @@ TagManager:
   - Azul
   - Semilla
   - Destino
+  - Zona1
+  - Zona2
   layers:
   - Default
   - TransparentFX
