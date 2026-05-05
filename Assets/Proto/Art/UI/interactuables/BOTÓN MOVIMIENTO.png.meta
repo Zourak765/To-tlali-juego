@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 741ff86a094db1f4aa68736e109099e9
+guid: 1837a99fbce4f8740990529ca9cab841
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8592821445749869865
-    second: "MEN\xDA PAUSA_0"
+      213: 190463038631790315
+    second: "BOT\xD3N MOVIMIENTO_0"
+  - first:
+      213: 6878496619182660462
+    second: "BOT\xD3N MOVIMIENTO_1"
+  - first:
+      213: 6278262224889240926
+    second: "BOT\xD3N MOVIMIENTO_2"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,9 +52,9 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -72,7 +78,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -126,13 +132,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "MEN\xDA PAUSA_0"
+      name: "BOT\xD3N MOVIMIENTO_0"
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 596
-        height: 783
+        y: 109
+        width: 73
+        height: 108
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +147,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 92d87440495df3770800000000000000
-      internalID: 8592821445749869865
+      spriteID: be64d70ef19a4a200800000000000000
+      internalID: 190463038631790315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "BOT\xD3N MOVIMIENTO_1"
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 218
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b9b173b34557f50800000000000000
+      internalID: 6878496619182660462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "BOT\xD3N MOVIMIENTO_2"
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 85
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5dd649da3ed02750800000000000000
+      internalID: 6278262224889240926
       vertices: []
       indices: 
       edges: []
@@ -151,7 +201,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +211,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "MEN\xDA PAUSA_0": 8592821445749869865
+      "BOT\xD3N MOVIMIENTO_0": 190463038631790315
+      "BOT\xD3N MOVIMIENTO_1": 6878496619182660462
+      "BOT\xD3N MOVIMIENTO_2": 6278262224889240926
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

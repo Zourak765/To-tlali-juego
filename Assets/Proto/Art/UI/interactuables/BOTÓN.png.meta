@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 3dcd83aa4713fda48b072416dbd3b970
+guid: 6a5a089bc0ca031409d856a279fb1e90
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 823829086721153925
-    second: "\xCDCONO MEN\xDA_0"
+      213: -8412968229161440679
+    second: "BOT\xD3N_0"
+  - first:
+      213: -9085344121369664112
+    second: "BOT\xD3N_1"
+  - first:
+      213: -2304616943583877673
+    second: "BOT\xD3N_2"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,9 +52,9 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -72,7 +78,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -126,13 +132,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "\xCDCONO MEN\xDA_0"
+      name: "BOT\xD3N_0"
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 568
-        height: 745
+        width: 364
+        height: 131
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +147,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 58b16a58034de6b00800000000000000
-      internalID: 823829086721153925
+      spriteID: 95a6f2a28f12f3b80800000000000000
+      internalID: -8412968229161440679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "BOT\xD3N_1"
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 126
+        width: 69
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095e39768af5ae180800000000000000
+      internalID: -9085344121369664112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "BOT\xD3N_2"
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 126
+        width: 100
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d52656a91b5400e0800000000000000
+      internalID: -2304616943583877673
       vertices: []
       indices: 
       edges: []
@@ -151,7 +201,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +211,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "\xCDCONO MEN\xDA_0": 823829086721153925
+      "BOT\xD3N_0": -8412968229161440679
+      "BOT\xD3N_1": -9085344121369664112
+      "BOT\xD3N_2": -2304616943583877673
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

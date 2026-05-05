@@ -33,8 +33,6 @@ public class PuertaFinal : MonoBehaviour
     {
         activado = true;
         colisionador.enabled = true;
-
-        Debug.Log("Todas las estatuas activadas 🔥");
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -43,7 +41,7 @@ public class PuertaFinal : MonoBehaviour
 
         if (other.CompareTag("Player"))
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(4);
         }
     }
 }
