@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Project/Scenes/GOLDENMOCHIS.unity
+    guid: 5b89a281b3fbad54eac6ba3da71410f5
+  - enabled: 1
     path: Assets/Project/Scenes/Menu.unity
     guid: 13bcee828f1e9b3458fd502247bef236
   - enabled: 1
@@ -20,6 +23,9 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Project/CarpetaLeo/Ilustraci\xF3n final.unity"
     guid: 2634bf1774d06f840bbabeebb1328a94
+  - enabled: 1
+    path: "Assets/Project/CarpetaLeo/Cr\xE9ditos.unity"
+    guid: 81fb35a7bbde2bc40a250e3252cd7777
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -3,8 +3,8 @@ using UnityEngine.SceneManagement;
 
 public class PassIntro : MonoBehaviour
 {
-    public void IrAEscena2()
+    public void IrAEscena3()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
     }
 }
