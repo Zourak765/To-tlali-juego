@@ -5562,7 +5562,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5caa115bd77bc4f48aed3685b53a77e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AutoLoadScene
-  tiempo: 25
+  tiempo: 35
   escenaID: 6
 --- !u!4 &1887832875
 Transform:
@@ -6344,7 +6344,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 21
+  m_SortingOrder: 102
   m_Sprite: {fileID: 5079935316808388223, guid: 67a0850b68ead4f4a9eb0065c3da6f0e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
