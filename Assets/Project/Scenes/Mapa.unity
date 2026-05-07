@@ -10436,9 +10436,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1722347102}
-        m_TargetAssemblyTypeName: MenuPauseUI, Assembly-CSharp
-        m_MethodName: ToggleUI
+      - m_Target: {fileID: 1722347105}
+        m_TargetAssemblyTypeName: CreditosUI, Assembly-CSharp
+        m_MethodName: OpenCredits
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -112491,9 +112491,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1722347102}
-        m_TargetAssemblyTypeName: MenuPauseUI, Assembly-CSharp
-        m_MethodName: ToggleUI
+      - m_Target: {fileID: 1722347105}
+        m_TargetAssemblyTypeName: CreditosUI, Assembly-CSharp
+        m_MethodName: BackToOptions
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -132364,7 +132364,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1722347104}
   - component: {fileID: 1722347103}
-  - component: {fileID: 1722347102}
+  - component: {fileID: 1722347105}
   m_Layer: 0
   m_Name: CREDITOS
   m_TagString: Untagged
@@ -132372,22 +132372,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1722347102
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1722347101}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4ec8e97185d53c42b5b520909552876, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MenuPauseUI
-  menuParent: {fileID: 1634716952}
-  continuarButton: {fileID: 1468693079}
-  opcionesButton: {fileID: 1338660926}
-  menuPrincipalButton: {fileID: 1171994941}
 --- !u!114 &1722347103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132403,9 +132387,9 @@ MonoBehaviour:
   onMenuUpdated:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1722347102}
-        m_TargetAssemblyTypeName: MenuPauseUI, Assembly-CSharp
-        m_MethodName: ToggleUI
+      - m_Target: {fileID: 1722347105}
+        m_TargetAssemblyTypeName: CreditosUI, Assembly-CSharp
+        m_MethodName: BackToOptions
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -132435,6 +132419,20 @@ RectTransform:
   m_AnchoredPosition: {x: -0.00012207031, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1722347105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722347101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fa16f40d912bd442a3c72a47126267e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CreditosUI
+  panelOpciones: {fileID: 1899982572}
+  panelCreditos: {fileID: 1634716952}
 --- !u!1 &1722597370
 GameObject:
   m_ObjectHideFlags: 0

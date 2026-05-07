@@ -175,7 +175,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 35.116665
-    functionName: IrAEscena2
+    functionName: IrAEscena3
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
