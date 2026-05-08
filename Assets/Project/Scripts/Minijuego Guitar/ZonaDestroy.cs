@@ -1,25 +1,14 @@
-using UnityEditor.U2D.Aseprite;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ZonaDestroy : MonoBehaviour
 {
-    public string tagNota;
-    public string tagNota2;
-    public MiniJuegoManager manager;
-    private void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag(tagNota))
-        {
-            manager.NotaIncorrecta();
+        if (!other.CompareTag("Nota")) return;
 
-            Destroy(other.gameObject);
-        }
-        
-        if (other.CompareTag(tagNota2))
-        {
-            manager.NotaIncorrecta();
+        if (MiniJuegoManager.Instance != null)
+            MiniJuegoManager.Instance.Incorrecto();
 
-            Destroy(other.gameObject);
-        }
+        Destroy(other.gameObject);
     }
 }

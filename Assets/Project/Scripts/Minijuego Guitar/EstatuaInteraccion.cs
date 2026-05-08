@@ -1,95 +1,114 @@
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
+using UnityEngine.Events;
 
 public class EstatuaInteraccion : MonoBehaviour
 {
-    public string objetoRequerido = "Instrumento1"; 
+    [SerializeField] private GameManagerEstatuas.listaestatua statueType;
+    [SerializeField] private Inventory.InventoryItem requiredItem;
+    [SerializeField] private AudioClip statueTrack;
 
-    public GameObject mensajeError;
-    public Transform puntoDestino;
-    public GameObject jugador;
-    public MonoBehaviour movimientoJugador;
-    public AudioClip musicaEstatua;
+    [Header("Notification Text")]
+    [SerializeField] private Text notificationText;
+    [SerializeField] private NotificationMessages notificationMessages;
+    [Space(3)]
+    [SerializeField] private ExternalEvents events;
 
-    public SpriteRenderer estatuaRenderer;
-    public Sprite estatuaActivada;
+    private Coroutine miniGameValidationCoroutine;
+    private Coroutine showTextCoroutine;
 
-    public GameObject textoPerdiste;
+    private GameManagerEstatuas globalGameManager;
+    private MusicMinigame miniGameManager;
+    private Player currentPlayer;
+    private Inventory currentInventory;
 
-    private bool enZona = false;
+    private bool isMinigameRunning;
 
-    void Start()
+
+    private void Awake()
     {
-        textoPerdiste.SetActive(false);
+        globalGameManager = FindFirstObjectByType<GameManagerEstatuas>();
+        miniGameManager = FindFirstObjectByType<MusicMinigame>();
+        currentPlayer = FindFirstObjectByType<Player>();
+        currentInventory = FindFirstObjectByType<Inventory>();
     }
 
-    void Update()
+    public void ActivateStatue()
     {
-        if (enZona && Input.GetKeyDown(KeyCode.E))
+        if(isMinigameRunning) return;
+
+        if (!currentInventory.GetItemState(requiredItem))
         {
-            if (InventMenu.instancia.TieneObjetoUnico(objetoRequerido))
-            {
-                StartCoroutine(SecuenciaCompleta());
-            }
-            else
-            {
-                StartCoroutine(MostrarMensaje());
-            }
+            ShowText(notificationMessages.NotItemMesssage, 2f);
+            return;
         }
+
+        if(miniGameValidationCoroutine != null) StopCoroutine(miniGameValidationCoroutine);
+        miniGameValidationCoroutine = StartCoroutine(ValidateMinigame());
     }
 
-    IEnumerator SecuenciaCompleta()
+    private IEnumerator ValidateMinigame()
     {
-        movimientoJugador.enabled = false;
+        currentPlayer.Deactivate("MusicMinigame");
+        isMinigameRunning = true;
+        events.OnGameStarted?.Invoke();
 
-        jugador.transform.position = puntoDestino.position;
 
-        yield return new WaitForSeconds(2f);
+        miniGameManager.transform.position = currentPlayer.transform.position;
+        miniGameManager.StartMinigame(statueTrack);
+        yield return null;
 
-        MiniJuegoManager.instancia.IniciarMinijuego(musicaEstatua);
+        while(miniGameManager.IsPlaying) yield return null;
+        
+        bool win = miniGameManager.HasWon;
+        globalGameManager.SetEstatua(statueType, win);
 
-        yield return new WaitUntil(() =>
-            MiniJuegoManager.instancia != null &&
-            MiniJuegoManager.instancia.juegoTerminado
-        );
-
-        if (MiniJuegoManager.instancia.gano)
+        if(win)
         {
-            estatuaRenderer.sprite = estatuaActivada;
-            yield return new WaitForSeconds(2f);
+            events.OnWin?.Invoke();
+            ShowText(notificationMessages.WinMesssage, 2f);
         }
         else
         {
-            textoPerdiste.SetActive(true);
-            yield return new WaitForSeconds(2f);
-            textoPerdiste.SetActive(false);
+            events.OnLoose?.Invoke();
+            ShowText(notificationMessages.LooseMesssage, 2f);
         }
 
-        MiniJuegoManager.instancia.canvasMinijuego.SetActive(false);
-
-        movimientoJugador.enabled = true;
+        events.OnGameEnded?.Invoke();
+        isMinigameRunning = false;
+        currentPlayer.Activate("MusicMinigame");
     }
 
-    IEnumerator MostrarMensaje()
-    {
-        mensajeError.SetActive(true);
-        yield return new WaitForSeconds(2f);
-        mensajeError.SetActive(false);
-    }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void ShowText(string _text, float _duration)
     {
-        if (other.CompareTag("Player"))
+        if(showTextCoroutine != null) StopCoroutine(showTextCoroutine);
+        showTextCoroutine = StartCoroutine(ShowTextRoutine(_text, _duration));
+        
+        IEnumerator ShowTextRoutine(string _text, float _duration)
         {
-            enZona = true;
+            notificationText.text = _text;
+            notificationText.gameObject.SetActive(true);
+            yield return new WaitForSeconds(_duration);
+            notificationText.gameObject.SetActive(false);
         }
     }
 
-    private void OnTriggerExit2D(Collider2D other)
+    [System.Serializable]
+    private struct ExternalEvents
     {
-        if (other.CompareTag("Player"))
-        {
-            enZona = false;
-        }
+        public UnityEvent OnGameStarted;
+        public UnityEvent OnWin;
+        public UnityEvent OnLoose;
+        public UnityEvent OnGameEnded;
+    }
+
+    [System.Serializable]
+    private struct NotificationMessages
+    {
+        public string WinMesssage;
+        public string LooseMesssage;
+        public string NotItemMesssage;
     }
 }

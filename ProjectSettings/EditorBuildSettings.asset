@@ -6,14 +6,26 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Project/Scenes/GOLDENMOCHIS.unity
+    guid: 5b89a281b3fbad54eac6ba3da71410f5
+  - enabled: 1
     path: Assets/Project/Scenes/Menu.unity
     guid: 13bcee828f1e9b3458fd502247bef236
+  - enabled: 1
+    path: Assets/Project/CarpetaLeo/Introanim.unity
+    guid: 1633d469051f9f348914ec740e2c696f
+  - enabled: 1
+    path: Assets/Project/CarpetaLeo/PantallaCarga.unity
+    guid: 7c2e2aa3edd5d7a439a42e98eb528f75
   - enabled: 1
     path: Assets/Project/Scenes/Mapa.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Project/Scenes/GuitarHero.unity
-    guid: 5b89a281b3fbad54eac6ba3da71410f5
+    path: "Assets/Project/CarpetaLeo/Ilustraci\xF3n final.unity"
+    guid: 2634bf1774d06f840bbabeebb1328a94
+  - enabled: 1
+    path: "Assets/Project/CarpetaLeo/Cr\xE9ditos.unity"
+    guid: 81fb35a7bbde2bc40a250e3252cd7777
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -14,10 +14,10 @@ public class UIInventario : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.I))
-        {
-            ToggleInventario();
-        }
+        // if (Input.GetKeyDown(KeyCode.I))
+        // {
+        //     ToggleInventario();
+        // }
     }
 
     public void ToggleInventario()

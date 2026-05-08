@@ -1,0 +1,338 @@
+fileFormatVersion: 2
+guid: aa1ffcc87d5cebf41b1fef0a83456636
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7890848232017338273
+    second: "MIZTLI MEN\xDA_0"
+  - first:
+      213: -2837025345082268784
+    second: "MIZTLI MEN\xDA_1"
+  - first:
+      213: 3957065436600677944
+    second: "MIZTLI MEN\xDA_2"
+  - first:
+      213: -3089108548091478293
+    second: "MIZTLI MEN\xDA_3"
+  - first:
+      213: -2799205886290276213
+    second: "MIZTLI MEN\xDA_4"
+  - first:
+      213: 6906216190867285967
+    second: "MIZTLI MEN\xDA_5"
+  - first:
+      213: -4673947615533887873
+    second: "MIZTLI MEN\xDA_6"
+  - first:
+      213: -289159613539310868
+    second: "MIZTLI MEN\xDA_7"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "MIZTLI MEN\xDA_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1257
+        width: 409
+        height: 241
+      alignment: 9
+      pivot: {x: 0.87677497, y: 0.7509127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af99e5d8ace18d60800000000000000
+      internalID: 7890848232017338273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "MIZTLI MEN\xDA_1"
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1010
+        width: 742
+        height: 642
+      alignment: 9
+      pivot: {x: 0.5315467, y: 0.114125095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0936797da7cd0a8d0800000000000000
+      internalID: -2837025345082268784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "MIZTLI MEN\xDA_2"
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 1205
+        width: 350
+        height: 369
+      alignment: 9
+      pivot: {x: 0.14888324, y: 0.161677}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8363f859c025ae630800000000000000
+      internalID: 3957065436600677944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "MIZTLI MEN\xDA_3"
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 707
+        width: 291
+        height: 305
+      alignment: 9
+      pivot: {x: 0.81505233, y: 0.80059093}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bee726e64284125d0800000000000000
+      internalID: -3089108548091478293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "MIZTLI MEN\xDA_4"
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 424
+        width: 449
+        height: 507
+      alignment: 9
+      pivot: {x: 0.47827828, y: 0.24606979}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b805c76c3193729d0800000000000000
+      internalID: -2799205886290276213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "MIZTLI MEN\xDA_5"
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 704
+        width: 246
+        height: 298
+      alignment: 9
+      pivot: {x: 0.19075124, y: 0.8141973}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc722bee80fc7df50800000000000000
+      internalID: 6906216190867285967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "MIZTLI MEN\xDA_6"
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 23
+        width: 223
+        height: 328
+      alignment: 9
+      pivot: {x: 0.70993465, y: 0.8389835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7e8155486dc22fb0800000000000000
+      internalID: -4673947615533887873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "MIZTLI MEN\xDA_7"
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 0
+        width: 186
+        height: 332
+      alignment: 9
+      pivot: {x: 0.4265888, y: 0.82902396}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2a99f0dd2bcfbf0800000000000000
+      internalID: -289159613539310868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b1c2b358ccb215042abf96ba825c387d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "MIZTLI MEN\xDA_0": 7890848232017338273
+      "MIZTLI MEN\xDA_1": -2837025345082268784
+      "MIZTLI MEN\xDA_2": 3957065436600677944
+      "MIZTLI MEN\xDA_3": -3089108548091478293
+      "MIZTLI MEN\xDA_4": -2799205886290276213
+      "MIZTLI MEN\xDA_5": 6906216190867285967
+      "MIZTLI MEN\xDA_6": -4673947615533887873
+      "MIZTLI MEN\xDA_7": -289159613539310868
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

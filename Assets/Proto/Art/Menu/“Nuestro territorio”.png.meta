@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 4443952d13db4e04c97032bb55bb2a6a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8022078402626815033
+    second: "\u201CNuestro territorio\u201D_0"
+  - first:
+      213: 1740624980803309054
+    second: "\u201CNuestro territorio\u201D_1"
+  - first:
+      213: -4584014241236254641
+    second: "\u201CNuestro territorio\u201D_2"
+  - first:
+      213: -3589288801518317699
+    second: "\u201CNuestro territorio\u201D_3"
+  - first:
+      213: 4101916675193550966
+    second: "\u201CNuestro territorio\u201D_4"
+  - first:
+      213: 4195790669344867606
+    second: "\u201CNuestro territorio\u201D_5"
+  - first:
+      213: -3281706599920283953
+    second: "\u201CNuestro territorio\u201D_6"
+  - first:
+      213: -694428040369989593
+    second: "\u201CNuestro territorio\u201D_7"
+  - first:
+      213: 3831489522576070568
+    second: "\u201CNuestro territorio\u201D_8"
+  - first:
+      213: 3635215598622748163
+    second: "\u201CNuestro territorio\u201D_9"
+  - first:
+      213: 6912249562304475402
+    second: "\u201CNuestro territorio\u201D_10"
+  - first:
+      213: -6155018854016057186
+    second: "\u201CNuestro territorio\u201D_11"
+  - first:
+      213: -4591384846171664297
+    second: "\u201CNuestro territorio\u201D_12"
+  - first:
+      213: -5335823993372725041
+    second: "\u201CNuestro territorio\u201D_13"
+  - first:
+      213: -5744670226546979010
+    second: "\u201CNuestro territorio\u201D_14"
+  - first:
+      213: -519147870948380124
+    second: "\u201CNuestro territorio\u201D_15"
+  - first:
+      213: -8368599301102806378
+    second: "\u201CNuestro territorio\u201D_16"
+  - first:
+      213: 341180668348603588
+    second: "\u201CNuestro territorio\u201D_17"
+  - first:
+      213: -2557202989852996970
+    second: "\u201CNuestro territorio\u201D_18"
+  - first:
+      213: 6313599233544087197
+    second: "\u201CNuestro territorio\u201D_19"
+  - first:
+      213: 4372946921393055529
+    second: "\u201CNuestro territorio\u201D_20"
+  - first:
+      213: -5334258787556348907
+    second: "\u201CNuestro territorio\u201D_21"
+  - first:
+      213: -158267463504373558
+    second: "\u201CNuestro territorio\u201D_22"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "\u201CNuestro territorio\u201D_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 65
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb7813123adba090800000000000000
+      internalID: -8022078402626815033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u201CNuestro territorio\u201D_1"
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 65
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efdc3f3a231f72810800000000000000
+      internalID: 1740624980803309054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u201CNuestro territorio\u201D_2"
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 2
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4008c1b55f4260c0800000000000000
+      internalID: -4584014241236254641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u201CNuestro territorio\u201D_3"
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1
+        width: 48
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f86351ad8403ec0800000000000000
+      internalID: -3589288801518317699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u201CNuestro territorio\u201D_4"
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 8
+        width: 61
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678b923bb7fece830800000000000000
+      internalID: 4101916675193550966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u201CNuestro territorio\u201D_5"
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 2
+        width: 51
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 615033e22617a3a30800000000000000
+      internalID: 4195790669344867606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u201CNuestro territorio\u201D_6"
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 3
+        width: 55
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce42be0c390572d0800000000000000
+      internalID: -3281706599920283953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u201CNuestro territorio\u201D_7"
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 11
+        width: 44
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7281da36065ec56f0800000000000000
+      internalID: -694428040369989593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u201CNuestro territorio\u201D_8"
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 2
+        width: 49
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a717c1bb6f2c2530800000000000000
+      internalID: 3831489522576070568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u201CNuestro territorio\u201D_9"
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 3
+        width: 55
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e2ed5a351e27230800000000000000
+      internalID: 3635215598622748163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u201CNuestro territorio\u201D_10"
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 8
+        width: 61
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a01f100ba5e3def50800000000000000
+      internalID: 6912249562304475402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u201CNuestro territorio\u201D_11"
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 11
+        width: 44
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e908a8486faf49aa0800000000000000
+      internalID: -6155018854016057186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u201CNuestro territorio\u201D_12"
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 11
+        width: 44
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75093d00fcf1840c0800000000000000
+      internalID: -4591384846171664297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u201CNuestro territorio\u201D_13"
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 73
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc03303395853f5b0800000000000000
+      internalID: -5335823993372725041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u201CNuestro territorio\u201D_14"
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 3
+        width: 55
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f87e29dd4d640b0800000000000000
+      internalID: -5744670226546979010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u201CNuestro territorio\u201D_15"
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 2
+        width: 49
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422b83e03cd9bc8f0800000000000000
+      internalID: -519147870948380124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u201CNuestro territorio\u201D_16"
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 11
+        width: 44
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a5f2e3643ccdb80800000000000000
+      internalID: -8368599301102806378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u201CNuestro territorio\u201D_17"
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 73
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc162d920e1cb400800000000000000
+      internalID: 341180668348603588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u201CNuestro territorio\u201D_18"
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 2
+        width: 49
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ace3bed6df28cd0800000000000000
+      internalID: -2557202989852996970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u201CNuestro territorio\u201D_19"
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 65
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d96e2915d096e9750800000000000000
+      internalID: 6313599233544087197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u201CNuestro territorio\u201D_20"
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 65
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 927654f5e04dfac30800000000000000
+      internalID: 4372946921393055529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u201CNuestro territorio\u201D_21"
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 0
+        width: 14
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ca2b315e7e8f5b0800000000000000
+      internalID: -5334258787556348907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u201CNuestro territorio\u201D_22"
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 0
+        width: 14
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8d15a9498bdcdf0800000000000000
+      internalID: -158267463504373558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "\u201CNuestro territorio\u201D_0": -8022078402626815033
+      "\u201CNuestro territorio\u201D_1": 1740624980803309054
+      "\u201CNuestro territorio\u201D_10": 6912249562304475402
+      "\u201CNuestro territorio\u201D_11": -6155018854016057186
+      "\u201CNuestro territorio\u201D_12": -4591384846171664297
+      "\u201CNuestro territorio\u201D_13": -5335823993372725041
+      "\u201CNuestro territorio\u201D_14": -5744670226546979010
+      "\u201CNuestro territorio\u201D_15": -519147870948380124
+      "\u201CNuestro territorio\u201D_16": -8368599301102806378
+      "\u201CNuestro territorio\u201D_17": 341180668348603588
+      "\u201CNuestro territorio\u201D_18": -2557202989852996970
+      "\u201CNuestro territorio\u201D_19": 6313599233544087197
+      "\u201CNuestro territorio\u201D_2": -4584014241236254641
+      "\u201CNuestro territorio\u201D_20": 4372946921393055529
+      "\u201CNuestro territorio\u201D_21": -5334258787556348907
+      "\u201CNuestro territorio\u201D_22": -158267463504373558
+      "\u201CNuestro territorio\u201D_3": -3589288801518317699
+      "\u201CNuestro territorio\u201D_4": 4101916675193550966
+      "\u201CNuestro territorio\u201D_5": 4195790669344867606
+      "\u201CNuestro territorio\u201D_6": -3281706599920283953
+      "\u201CNuestro territorio\u201D_7": -694428040369989593
+      "\u201CNuestro territorio\u201D_8": 3831489522576070568
+      "\u201CNuestro territorio\u201D_9": 3635215598622748163
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

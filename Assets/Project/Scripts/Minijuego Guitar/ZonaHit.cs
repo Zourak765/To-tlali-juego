@@ -1,42 +1,50 @@
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class ZonaHit : MonoBehaviour
 {
-    public KeyCode tecla;
-    public string tagNota;
-
     private GameObject notaEnZona;
-
-    public MiniJuegoManager manager;
 
     void Update()
     {
-        if (Input.GetKeyDown(tecla))
+        if (Keyboard.current == null) return;
+
+        if (Keyboard.current.aKey.wasPressedThisFrame ||
+            Keyboard.current.dKey.wasPressedThisFrame)
         {
-            if (notaEnZona != null)
-            {
-                Debug.Log("ACIERTO");
+            Presionar();
+        }
+    }
 
-                manager.NotaCorrecta();
+    void Presionar()
+    {
+        if (notaEnZona != null)
+        {
 
-                Destroy(notaEnZona);
-                notaEnZona = null;
-            }
-            else
-            {
-                Debug.Log("FALLO");
+            notaEnZona.GetComponent<NotaElim>().Acierto();
+            notaEnZona = null;
+        }
+        else
+        {
 
-                manager.NotaIncorrecta();
-            }
+            if (MiniJuegoManager.Instance != null)
+                MiniJuegoManager.Instance.Incorrecto();
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-
-        if (other.CompareTag(tagNota))
+        if (other.CompareTag("Nota"))
         {
             notaEnZona = other.gameObject;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject == notaEnZona)
+        {
+            notaEnZona = null;
         }
     }
 }

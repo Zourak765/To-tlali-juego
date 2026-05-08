@@ -10,15 +10,18 @@ TagManager:
   - Naranja
   - Azul
   - Semilla
+  - Destino
+  - Zona1
+  - Zona2
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Interactables
   - Water
   - UI
-  - 
-  - 
+  - Touchables
+  - MinigameFlowers
   - 
   - 
   - 
@@ -44,8 +47,17 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: ground
+    uniqueID: 1986938607
+    locked: 0
+  - name: player
+    uniqueID: 3817829893
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 191034573
     locked: 0
   m_RenderingLayers:
   - Default

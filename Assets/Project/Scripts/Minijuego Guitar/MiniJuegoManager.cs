@@ -3,78 +3,91 @@ using UnityEngine.UI;
 
 public class MiniJuegoManager : MonoBehaviour
 {
-    public static MiniJuegoManager instancia;
+    public static MiniJuegoManager Instance;
 
+    [Header("UI")]
     public Slider barra;
     public GameObject canvasMinijuego;
 
+    [Header("Progreso")]
     public float progreso = 0f;
     public float maxProgreso = 100f;
 
+    [Header("Estado")]
     public bool juegoTerminado = false;
     public bool gano = false;
 
+    [Header("Audio")]
     public AudioSource musica;
-
-    bool musicaInicio = false;
 
     void Awake()
     {
-        instancia = this;
-    }
-
-    void Update()
-    {
-        barra.value = progreso;
-
-        if (musicaInicio && !musica.isPlaying && !juegoTerminado)
+        if (Instance != null)
         {
-            TerminarJuego();
+            Destroy(gameObject);
+            return;
         }
+
+        Instance = this;
+
     }
 
-    public void IniciarMinijuego(AudioClip nuevaMusica)
+    public void IniciarMinijuego(AudioClip clip, GameObject canvas)
     {
-        canvasMinijuego.SetActive(true);
+
+        canvasMinijuego = canvas;
+
+        if (canvasMinijuego != null)
+            canvasMinijuego.SetActive(true);
 
         progreso = 0f;
         juegoTerminado = false;
         gano = false;
 
-        barra.value = 0;
+        if (barra != null)
+            barra.value = 0;
 
-        musica.Stop();
-        musicaInicio = false;
-
-        if (nuevaMusica != null)
+        if (musica != null)
         {
-            musica.clip = nuevaMusica;
+            musica.Stop();
+            musica.clip = clip;
+            musica.Play();
         }
-
-        Invoke("IniciarMusica", 2f);
     }
 
-    void IniciarMusica()
+    void Update()
     {
-        musica.Play();
-        musicaInicio = true;
+        if (barra != null)
+            barra.value = progreso;
+
+        if (!juegoTerminado && progreso >= maxProgreso)
+        {
+            Terminar(true);
+        }
     }
 
-    public void NotaCorrecta()
+    public void Correcto()
     {
         progreso += 10f;
         progreso = Mathf.Clamp(progreso, 0, maxProgreso);
     }
 
-    public void NotaIncorrecta()
+    public void Incorrecto()
     {
         progreso -= 15f;
         progreso = Mathf.Clamp(progreso, 0, maxProgreso);
     }
 
-    void TerminarJuego()
+    public void Terminar(bool win)
     {
         juegoTerminado = true;
-        gano = (progreso >= maxProgreso);
+        gano = win;
+
+        if (musica != null)
+            musica.Stop();
+
+        if (canvasMinijuego != null)
+            canvasMinijuego.SetActive(false);
+
     }
 }
